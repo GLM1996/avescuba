@@ -3,33 +3,99 @@
     "id": 1,
     "nombre": "Tocororo",
     "cientifico": "Priotelus temnurus",
-    "region": ["Occidente", "Centro"],
+    "region": ["Occidente", "Centro", "Oriente"],
     "epoca": ["Todo el año"],
-    "tipo": "Endémica", 
+    "tipo": "Endémica",
     "rareza": "Común",
-    "imagen": "/hero/hero1.jpg",
+    "imagen": "/birds/tocororo.png",
     "sonido": "/sounds/tocororo.mp3"
   },
   {
     "id": 2,
-    "nombre": "Tocororo",
-    "cientifico": "Priotelus temnurus",
+    "nombre": "Zunzuncito",
+    "cientifico": "Mellisuga helenae",
     "region": ["Occidente", "Centro"],
     "epoca": ["Todo el año"],
-    "tipo": "Endémica", 
-    "rareza": "Común",
-    "imagen": "/hero/hero1.jpg",
-    "sonido": "/sounds/tocororo.mp3"
+    "tipo": "Endémica",
+    "rareza": "Rara",
+    "imagen": "/birds/zunzuncito.webp",
+    "sonido": "/sounds/zunzuncito.mp3"
   },
   {
     "id": 3,
-    "nombre": "Tocororo",
-    "cientifico": "Priotelus temnurus",
+    "nombre": "Cartacuba",
+    "cientifico": "Todus multicolor",
+    "region": ["Occidente", "Centro", "Oriente"],
+    "epoca": ["Todo el año"],
+    "tipo": "Endémica",
+    "rareza": "Común",
+    "imagen": "/birds/cartacuba.png",
+    "sonido": "/sounds/cartacuba.mp3"
+  },
+  {
+    "id": 4,
+    "nombre": "Cabrerito de la Ciénaga",
+    "cientifico": "Torreornis inexpectata",
+    "region": ["Occidente (Zapata)"],
+    "epoca": ["Todo el año"],
+    "tipo": "Endémica",
+    "rareza": "Muy Rara",
+    "imagen": "/birds/cabrerito.jpg",
+    "sonido": "/sounds/cabrerito.mp3"
+  },
+  {
+    "id": 5,
+    "nombre": "Gavilán caguarero",
+    "cientifico": "Chondrohierax uncinatus wilsonii",
     "region": ["Occidente", "Centro"],
     "epoca": ["Todo el año"],
-    "tipo": "Endémica", 
+    "tipo": "Endémica",
+    "rareza": "En peligro crítico",
+    "imagen": "/birds/gavilan.jpg",
+    "sonido": "/sounds/gavilan.mp3"
+  },
+  {
+    "id": 6,
+    "nombre": "Carpintero Verde",
+    "cientifico": "Xiphidiopicus percussus",
+    "region": ["Toda Cuba"],
+    "epoca": ["Todo el año"],
+    "tipo": "Endémica",
     "rareza": "Común",
-    "imagen": "/hero/hero1.jpg",
-    "sonido": "/sounds/tocororo.mp3"
+    "imagen": "/birds/carpintero.jpg",
+    "sonido": "/sounds/carpintero.mp3"
+  },
+  {
+    "id": 7,
+    "nombre": "Gallinuela de Santo Tomás",
+    "cientifico": "Cyanolimnas cerverai",
+    "region": ["Ciénaga de Zapata"],
+    "epoca": ["Todo el año"],
+    "tipo": "Endémica",
+    "rareza": "Críticamente amenazada",
+    "imagen": "/birds/gallinuela.jpg",
+    "sonido": "/sounds/gallinuela.mp3"
+  },
+  {
+    "id": 8,
+    "nombre": "Flamenco Rosado",
+    "cientifico": "Phoenicopterus ruber",
+    "region": ["Ciego de Ávila", "Camagüey", "Cienfuegos"],
+    "epoca": ["Todo el año"],
+    "tipo": "Residente",
+    "rareza": "Localmente común",
+    "imagen": "/birds/flamenco.jpg",
+    "sonido": "/sounds/flamenco.mp3"
+  },
+  {
+    "id": 9,
+    "nombre": "Sijú Platanero",
+    "cientifico": "Glaucidium siju",
+    "region": ["Toda Cuba"],
+    "epoca": ["Todo el año"],
+    "tipo": "Endémica",
+    "rareza": "Común",
+    "imagen": "/birds/siju.jpg",
+    "sonido": "/sounds/siju.mp3"
   }
 ]

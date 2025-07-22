@@ -32,10 +32,11 @@ const CardBirds: React.FC<CardBirdsProps> = ({ bird, onDetailsClick }) => {
                     alt={`Imagen del ave cubana ${bird.nombre}`}
                     fill
                     style={{ objectFit: 'cover' }}
-                    className="rounded-t-xl"
+                    className="rounded-t-xl transition-transform duration-300 hover:scale-105"
                     sizes="(max-width: 768px) 100vw, 400px"
                 />
             </div>
+
 
             {/* Contenido */}
             <div className="p-5">
