@@ -6,6 +6,7 @@ import Link from 'next/link';
 import { ImMenu } from "react-icons/im";
 import { IoClose } from "react-icons/io5";
 import { useTranslations, useLocale } from 'next-intl';
+import LanguageDropdown from './ui/LanguageDropdown';
 
 export default function Navbar() {
     const t = useTranslations('Navbar');
@@ -49,10 +50,7 @@ export default function Navbar() {
                     </li>
                 ))}
             </ul>
-                <button onClick={() => {
-                }} className="hidden md:block text-white text-sm">
-                    ES
-                </button>
+            <LanguageDropdown/>
 
             {/* Botón menú móvil */}
             <div className="md:hidden z-50">
@@ -89,13 +87,7 @@ export default function Navbar() {
                                     {label}
                                 </Link>
                             </li>
-                        ))}
-                        <li>
-                            <button onClick={() => {
-                            }} className="underline text-white text-sm">
-                                ES
-                            </button>
-                        </li>
+                        ))}                       
                     </ul>
                 </div>
             )}

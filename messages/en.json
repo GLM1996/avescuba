@@ -1,15 +1,15 @@
 {
-    "HomePage": {
-      "title": "Hello world!",
-      "about": "Go to the about page"
-    },
-    "Navbar": {
-      "inicio": "Home",
-      "sobre": "About"
-    },
-    "Hero": {
-      "title": "Hello world!",
-      "subtitle": "Heelo ingles",
-      "button": "Test"
-    }
+  "HomePage": {
+    "title": "Hello world!",
+    "about": "Go to the about page"
+  },
+  "Navbar": {
+    "inicio": "Home",
+    "sobre": "About"
+  },
+  "Hero": {
+    "title": "Discover the Birds of Cuba.",
+    "subtitle": "Explore unique trails and learn about Cuban biodiversity.",
+    "button": "Book Your Tour"
+  }
 }
