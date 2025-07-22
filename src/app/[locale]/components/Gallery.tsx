@@ -20,7 +20,7 @@ export default function Gallery() {
   return (
     <section
       className="relative w-full bg-cover bg-center bg-no-repeat py-16 px-4"
-      style={{ backgroundImage: "url('/gallery/gallery1.jpg')" }}
+      style={{ backgroundImage: "url('/gallery/gallery1.webp')" }}
     >
 
       {/* SVG curve at top (inverted) */}
