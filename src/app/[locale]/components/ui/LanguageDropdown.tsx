@@ -49,7 +49,7 @@ export default function LanguageDropdown() {
         aria-expanded={open}
       >
         <FaGlobeAmericas size={16} />
-        {languageOptions[locale]?.label ?? locale}
+        {(locale in languageOptions) ? languageOptions[locale as Locale].label : locale}
         <IoChevronDown className="ml-0.5" size={16} />
       </button>
 
