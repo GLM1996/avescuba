@@ -1,0 +1,35 @@
+[
+  {
+    "id": 1,
+    "nombre": "Tocororo",
+    "cientifico": "Priotelus temnurus",
+    "region": ["Occidente", "Centro"],
+    "epoca": ["Todo el año"],
+    "tipo": "Endémica", 
+    "rareza": "Común",
+    "imagen": "/hero/hero1.jpg",
+    "sonido": "/sounds/tocororo.mp3"
+  },
+  {
+    "id": 2,
+    "nombre": "Tocororo",
+    "cientifico": "Priotelus temnurus",
+    "region": ["Occidente", "Centro"],
+    "epoca": ["Todo el año"],
+    "tipo": "Endémica", 
+    "rareza": "Común",
+    "imagen": "/hero/hero1.jpg",
+    "sonido": "/sounds/tocororo.mp3"
+  },
+  {
+    "id": 3,
+    "nombre": "Tocororo",
+    "cientifico": "Priotelus temnurus",
+    "region": ["Occidente", "Centro"],
+    "epoca": ["Todo el año"],
+    "tipo": "Endémica", 
+    "rareza": "Común",
+    "imagen": "/hero/hero1.jpg",
+    "sonido": "/sounds/tocororo.mp3"
+  }
+]
