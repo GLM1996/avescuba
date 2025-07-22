@@ -3,14 +3,16 @@ import {Link} from '@/i18n/navigation';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import Gallery from './components/Gallery';
+import Tours from './components/Tours';
  
 export default function HomePage() {
 
   return (
     <div>
       <Navbar />
-      <Hero/>
+      <Hero/>      
       <Gallery/>
+      <Tours/>
     </div>
   );
 }

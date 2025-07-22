@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "nombre": "Tocororo",
+    "descripcion": "Tocororo",
+    "imagen": "/birds/tocororo.webp"
+  },
+  {
+    "id": 2,
+    "nombre": "Tocororo",
+    "descripcion": "Tocororo",
+    "imagen": "/birds/tocororo.webp"
+  },
+  {
+    "id": 3,
+    "nombre": "Tocororo",
+    "descripcion": "Tocororo",
+    "imagen": "/birds/tocororo.webp"
+  }
+]
