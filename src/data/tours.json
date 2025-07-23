@@ -1,20 +1,11 @@
 [
   {
     "id": 1,
-    "nombre": "Tocororo",
+    "nombre": "Sendero Cayo venado",
+    "capacidad": "15 Personas",
+    "dificultad": "Medio",
     "descripcion": "Tocororo",
-    "imagen": "/birds/tocororo.webp"
-  },
-  {
-    "id": 2,
-    "nombre": "Tocororo",
-    "descripcion": "Tocororo",
-    "imagen": "/birds/tocororo.webp"
-  },
-  {
-    "id": 3,
-    "nombre": "Tocororo",
-    "descripcion": "Tocororo",
-    "imagen": "/birds/tocororo.webp"
+    "imagen": "/tours/cayovenado.webp",
+    "imagenes": ["/tours/cayovenado.webp", "/tours/cayovenado.webp", "/tours/cayovenado.webp"]
   }
 ]

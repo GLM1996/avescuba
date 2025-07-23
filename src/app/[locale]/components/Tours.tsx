@@ -9,7 +9,7 @@ export default function Tours() {
   return (
     <section
       className="relative w-full bg-cover bg-center bg-no-repeat py-16 px-4"
-      style={{ backgroundImage: "url('/gallery/gallery1.webp')" }}
+      style={{ backgroundImage: "url('/gallery/gallery2.webp')" }}
     >
 
       {/* SVG curve at top (inverted) */}
