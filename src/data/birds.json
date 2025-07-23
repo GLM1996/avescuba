@@ -64,18 +64,7 @@
     "rareza": "Localmente común",
     "imagen": "/birds/flamenco.webp",
     "sonido": "/sounds/flamenco.mp3"
-  },
-  {
-    "id": 7,
-    "nombre": "Gallinuela de Santo Tomás",
-    "cientifico": "Cyanolimnas cerverai",
-    "region": ["Ciénaga de Zapata"],
-    "epoca": ["Todo el año"],
-    "tipo": "Endémica",
-    "rareza": "Críticamente amenazada",
-    "imagen": "/birds/gallinuela.jpg",
-    "sonido": "/sounds/gallinuela.mp3"
-  },  
+  }, 
   {
     "id": 8,
     "nombre": "Carpintero Verde",
@@ -95,7 +84,7 @@
     "epoca": ["Todo el año"],
     "tipo": "Endémica",
     "rareza": "Común",
-    "imagen": "/birds/siju.jpg",
+    "imagen": "/birds/siju.webp",
     "sonido": "/sounds/siju.mp3"
   }
 ]
