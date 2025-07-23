@@ -13,6 +13,7 @@ import 'swiper/css/zoom';
 type Tour = {
   id: number;
   nombre: string;
+  dificultad: string;
   descripcion: string;
   imagen: string;
   imagenes: string[];
@@ -46,6 +47,15 @@ const CardTours: React.FC<CardToursProps> = ({ tour }) => {
           <div className="flex flex-col flex-1 justify-between p-5">
             <div>
               <h3 className="text-lg font-semibold text-gray-900">{tour.nombre}</h3>
+              <div className="flex items-center flex-wrap gap-2 mb-3">
+              <span className="text-gray-800 text-sm">
+                Dificultad:
+              </span>
+              <span className="px-2 py-1 bg-green-50 text-green-800 text-xs font-medium rounded-full">
+                {tour.dificultad}
+              </span>
+            </div>
+
               <p className="text-sm italic text-gray-500 mt-2 line-clamp-4">{tour.descripcion}</p>
             </div>
 

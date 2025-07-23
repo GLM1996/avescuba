@@ -1,11 +1,119 @@
 [
   {
     "id": 1,
-    "nombre": "Sendero Cayo venado",
+    "nombre": "Las Salinas de Brito, Ciénaga de Zapata. Cuba",
+    "capacidad": "15 Personas",
+    "dificultad": "Poca",
+    "descripcion": "El recorrido se hace con muy poca dificultad en su trayectoria, haciéndose en transporte ligero. Este itinerario se desarrolla a través de un terraplén de 21 km,  que en los primeros 12 km se compone de formaciones de bosque semicaducifolio, manglares y bosques de ciénaga donde se destaca la presencia de aves de bosque endémicas y migratorias, en su segunda parte se encuentran las marismas con una gran variedad de aves acuáticas que le imprimen una belleza excepcional al lugar por su gran colorido predominando los Flamencos Rosado, Garzas, Sevillas, Corúas, Gavilanes y otras especies de aves y de peces y crustáceos. Al final del sendero se encuentra la estación de manejo del área y el área para la pesca deportiva recreativa. Excursión recomendada de noviembre a mayo, cuando las aves migratorias llegan a Las Salinas, ofreciendo un espectacular abanico de especies y colores.",
+    "imagen": "/tours/cayovenado.webp",
+    "imagenes": [
+      "/tours/cayovenadocarrusel.png",
+      "/tours/cayovenadocarrusel.png",
+      "/tours/cayovenadocarrusel.png"
+    ]
+  },
+  {
+    "id": 2,
+    "nombre": "Bermejas, Ciénaga de Zapata. Cuba",
     "capacidad": "15 Personas",
     "dificultad": "Medio",
-    "descripcion": "Tocororo",
+    "descripcion": "Se encuentra en la zona oriental del Área Protegida de Recursos Manejados y Reserva de la Biosfera Península de Zapata, al norte del poblado Bermejas. Se realiza con poca dificultad, haciéndose a pie y utilizando algunos caminos forestales abandonados, en vehículo se puede llegar desde la Carretera de Bermejas hasta le entrada del sendero donde es guiado por personal especializado en observación de aves del Parque Nacional. El sendero atraviesa una gran franja de bosques semideciduos y de ciénaga que permanecen semi-inundados en época de lluvia. En el trayecto puede llegar a ver hasta 21 especies de las 27 especies endémicas de Cuba tales como Palomas, Cotorras, Pájaros Carpinteros, Sijúes, Cateyes y el zunzuncito siendo esta el ave más pequeña del mundo. Horarios de visita: Desde las 8:00 am hasta las 4:00 pm. Se recomienda mejor en el horario de las mañanas, si se puede llegar a las 6:00 am o 7:00 am, mucho mejor, debido a la gran concentración de aves que se pueden ver durante ese tiempo. Sendero especializado para observadores de aves",
     "imagen": "/tours/cayovenado.webp",
-    "imagenes": ["/tours/cayovenadocarrusel.png", "/tours/cayovenadocarrusel.png", "/tours/cayovenadocarrusel.png"]
+    "imagenes": [
+      "/tours/cayovenadocarrusel.png",
+      "/tours/cayovenadocarrusel.png",
+      "/tours/cayovenadocarrusel.png"
+    ]
+  },
+  {
+    "id": 3,
+    "nombre": "Santo Tomas, Ciénaga de Zapata. Cuba",
+    "capacidad": "15 Personas",
+    "dificultad": "Medio",
+    "descripcion": "El acceso se realiza con poca dificultad. Se llega al lugar por un terraplén hasta la estación ecológica, perteneciente al Parque Nacional. Desde allí, se toma un bote impulsado por palanca, guiado por personal especializado en observación de aves del Parque Nacional. Utilizando un canal de 1,5 km de longitud, se accede al sitio destinado a la observación de tres especies endémicas locales: la Ferminia, el Cabrerito de la Ciénaga y el Mayito de la Ciénaga. Durante el trayecto es posible avistar otras especies de aves, como el cartacuba, tocororo, cotorras, cateyes, pájaros carpinteros, zunzún y zunzuncito. Horarios de visita: de 8:00 a.m. a 4:00 p.m. Recomendación: es preferible visitar en horario matutino, llegando entre las 5:30 y 6:00 a.m., debido a la mayor actividad alimenticia de las especies endémicas en esas horas y a la disminución de los vientos, que tienden a hacer que las aves se oculten.",
+    "imagen": "/tours/cayovenado.webp",
+    "imagenes": [
+      "/tours/cayovenadocarrusel.png",
+      "/tours/cayovenadocarrusel.png",
+      "/tours/cayovenadocarrusel.png"
+    ]
+  },
+  {
+    "id": 4,
+    "nombre": "Soplillar, Ciénaga de Zapata. Cuba",
+    "capacidad": "15 Personas",
+    "dificultad": "Medio",
+    "descripcion": "Se accede al lugar por carretera. Esta localidad se encuentra ubicada a 3 km de la costa este de la Bahía de Cochinos, en la carretera que conecta Playa Larga con Playa Girón. La caminata se realiza con poca dificultad. El sendero atraviesa un bosque semideciduo, con una amplia extensión de áreas de sabana que se inundan durante la temporada de verano. A lo largo del recorrido puede observarse una gran variedad de aves endémicas y migratorias. Horarios de visita: de 8:00 a.m. a 4:00 p.m.Recomendación: es preferible visitar en las mañanas, aunque también es posible recorrerlo en horas de la tarde, antes del anochecer.",
+    "imagen": "/tours/cayovenado.webp",
+    "imagenes": [
+      "/tours/cayovenadocarrusel.png",
+      "/tours/cayovenadocarrusel.png",
+      "/tours/cayovenadocarrusel.png"
+    ]
+  },
+  {
+    "id": 5,
+    "nombre": "Paseo fluvial por el Río Hatiguanico",
+    "capacidad": "15 Personas",
+    "dificultad": "Medio",
+    "descripcion": "El acceso se realiza por un terraplén de aproximadamente 8 kilómetros desde el punto conocido como Hato de Jicarita (Km 104 de la Autopista Nacional). Desde allí, se parte en botes de motor desde un embarcadero, navegando por las extensas aguas del Río Hatiguanico, conocido como el Amazonas de Cuba.Durante el recorrido de unos 14 km, se pueden apreciar exuberantes manglares y una diversa flora y fauna, incluyendo peces, aves acuáticas, reptiles y mamíferos. El paseo incluye una visita al nacimiento del río, donde los visitantes podrán disfrutar de un refrescante baño en sus cristalinos manantiales.Horarios de visita: de 8:00 a.m. a 4:00 p.m.Recomendación: se aconseja reservar el paseo con al menos un día de antelación, para garantizar la disponibilidad del guía y de la embarcación.",
+    "imagen": "/tours/cayovenado.webp",
+    "imagenes": [
+      "/tours/cayovenadocarrusel.png",
+      "/tours/cayovenadocarrusel.png",
+      "/tours/cayovenadocarrusel.png"
+    ]
+  },
+  {
+    "id": 6,
+    "nombre": "La Turba, Ciénaga de Zapata. Cuba",
+    "capacidad": "15 Personas",
+    "dificultad": "Medio",
+    "descripcion": "El acceso se realiza por un camino de aproximadamente 8 km, ubicado a 500 metros a la derecha de la entrada principal del Parque Nacional Ciénaga de Zapata. La caminata se lleva a cabo con poca dificultad, atravesando un área de canales donde puede observarse una gran variedad de aves acuáticas y migratorias.De especial interés es la observación de tres especies endémicas del territorio: la Ferminia, el Cabrerito de la Ciénaga y el Mayito de la Ciénaga.Horarios de visita: de 8:00 a.m. a 4:00 p.m.Recomendación: se sugiere realizar la visita en horas de la mañana, llegando entre 5:30 y 6:00 a.m., momento en que estas especies están más activas en su alimentación y antes de que los vientos las obliguen a ocultarse.",
+    "imagen": "/tours/cayovenado.webp",
+    "imagenes": [
+      "/tours/cayovenadocarrusel.png",
+      "/tours/cayovenadocarrusel.png",
+      "/tours/cayovenadocarrusel.png"
+    ]
+  },
+  {
+    "id": 7,
+    "nombre": "Enigma de las Rocas Ciénaga de Zapata. Cuba",
+    "capacidad": "15 Personas",
+    "dificultad": "Medio",
+    "descripcion": "Zona de bosques y sabanas, rodeada de cuevas inundadas o cenotes, similares a los que se encuentran en Yucatán, México.Durante el recorrido existe la posibilidad de observar fauna exótica, como aves endémicas y migratorias cubanas, así como serpientes, jutías (ratas de árbol), iguanas, entre otras especies.Para llegar, se realiza un trayecto en automóvil de aproximadamente 30 minutos, seguido de una caminata por el área, donde los visitantes pueden conocer y disfrutar de la flora y fauna del entorno. Al final del recorrido, es posible tomar un refrescante baño en uno de los pozones de agua azul.La excursión tiene una duración estimada de 2 horas y media a 3 horas, dependiendo del ritmo del grupo.Horario de visita: de 8:00 a.m. a 4:00 p.m.Recomendación: lo ideal es realizar la excursión en horas de la mañana, aunque puede hacerse en cualquier momento del día.Sendero apto para todo tipo de público.",
+    "imagen": "/tours/cayovenado.webp",
+    "imagenes": [
+      "/tours/cayovenadocarrusel.png",
+      "/tours/cayovenadocarrusel.png",
+      "/tours/cayovenadocarrusel.png"
+    ]
+  },
+  {
+    "id": 8,
+    "nombre": "El encanto del Guareao",
+    "capacidad": "15 Personas",
+    "dificultad": "Medio",
+    "descripcion": "Experiencia de vida en el corazón de la Reserva de Biosfera Ciénaga de Zapata, el humedal más grande y mejor conservado del Caribe Insular, en el recorrido de aproximadamente 6 horas por ecosistemas de pantano en los que predominan herbazales de ciénaga se podrán apreciar gran variedad de especies de la flora y fauna endémicos, entre los que destacan orquídeas de diferentes géneros, manglares, tortugas de agua dulce, jutías (especie de mamífero muy carismático), manjuaríes (pez prehistórico cubano), aves como carpinteros ,búhos pequeños, el ave nacional de cuba :el tocororo, le otorgan una gracia adicional, de ahí del nombre que alude además a una especie de ave típica de estos ecosistemas parcialmente inundados. En los límites del trayecto se accederá a pequeñas lagunas con canales donde además se podrá apreciar al imponente Cocodrilo Cubano, único en el mundo en este lugar. Otras sorpresas esperan al final del recorrido cuando el visitante será participe de una experiencia única. Por sus características serán acompañados por 2 guías locales de amplia experiencia en el área que los conducirán en todo momento.",
+    "imagen": "/tours/cayovenado.webp",
+    "imagenes": [
+      "/tours/cayovenadocarrusel.png",
+      "/tours/cayovenadocarrusel.png",
+      "/tours/cayovenadocarrusel.png"
+    ]
+  },
+  {
+    "id": 9,
+    "nombre": "El hondón del Pirata",
+    "capacidad": "15 Personas",
+    "dificultad": "Medio",
+    "descripcion": "Excursión hacia uno de los lugares más icónicos de la zona central de la Ciénaga de Zapata: Los Hondones. El sendero se encuentra ubicado en una línea de falla tectónica que conecta un sinnúmero de cuevas inundadas de especial belleza, con especies típicas de estas formaciones como murciélagos fruteros, peces dulceacuícolas y de mar. La vegetación circundante cuenta con varias especies de plantas de gran valor paisajístico como orquídeas, bromelias y arbustos que sirven de sustrato a estas. La caminata incluye la visitación a cenotes de aguas cristalinas, con profundidades que oscilan entre 10 y 40 metros, en los que se puede hacer baño y snorkeling, además de contemplar aves endémicas cubanas que habitualmente visitan estos reservorios de agua. Una de las cuevas cuenta con una leyenda rural que los guías harán alusión una vez se accede al lugar. Como cierre se incluye almuerzo en casa particular, otro valor agregado en el que conocerá costumbres de los lugareños, así como apreciar las formas y estilos de vida de la familia cenaguera. Una versión más larga incluye la visita a la “Laguna Azul” y la zona marino costera donde se contemplarán arrecifes coralinos y peces de vistosos colores.",
+    "imagen": "/tours/cayovenado.webp",
+    "imagenes": [
+      "/tours/cayovenadocarrusel.png",
+      "/tours/cayovenadocarrusel.png",
+      "/tours/cayovenadocarrusel.png"
+    ]
   }
 ]
