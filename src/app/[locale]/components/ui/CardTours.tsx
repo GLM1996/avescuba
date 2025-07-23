@@ -1,17 +1,26 @@
+'use client';
+
 import React, { useState } from 'react';
 import Image from 'next/image';
 import { Swiper, SwiperSlide } from 'swiper/react';
+import {
+  Navigation,
+  Pagination,
+  Zoom,
+  Autoplay
+} from 'swiper/modules';
+
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
-import { Navigation, Pagination } from 'swiper/modules';
+import 'swiper/css/zoom';
 
 type Tour = {
   id: number;
   nombre: string;
   descripcion: string;
-  imagen: string;            // Imagen principal (frontal)
-  imagenes: string[];        // Carrusel (reverso)
+  imagen: string;
+  imagenes: string[];
 };
 
 interface CardToursProps {
@@ -22,13 +31,12 @@ const CardTours: React.FC<CardToursProps> = ({ tour }) => {
   const [showDetails, setShowDetails] = useState(false);
 
   return (
-    <div className="w-full sm:max-w-sm perspective" aria-label={`Tarjeta del tour: ${tour.nombre}`}>
+    <div className="w-full sm:max-w-sm perspective">
       <div
-        className={`relative w-full h-[30rem] transition-transform duration-700 transform-style-preserve-3d ${
-          showDetails ? 'rotate-y-180' : ''
-        }`}
+        className={`relative w-full h-[30rem] transition-transform duration-700 transform-style-preserve-3d ${showDetails ? 'rotate-y-180' : ''
+          }`}
       >
-        {/* Frente de la tarjeta */}
+        {/* Frente */}
         <div className="absolute w-full h-full backface-hidden rounded-xl overflow-hidden bg-white border border-gray-200 shadow-md flex flex-col">
           <div className="relative h-52 w-full">
             <Image
@@ -56,24 +64,40 @@ const CardTours: React.FC<CardToursProps> = ({ tour }) => {
           </div>
         </div>
 
-        {/* Reverso de la tarjeta */}
+        {/* Reverso */}
         <div className="absolute w-full h-full backface-hidden rotate-y-180 rounded-xl bg-white border border-gray-200 shadow-md flex flex-col p-5 overflow-y-auto">
           <div className="flex-1 space-y-4">
-            {/* Carrusel de imágenes */}
+            {/* Carrusel */}
             <Swiper
-              modules={[Navigation, Pagination]}
+              modules={[Navigation, Pagination, Zoom, Autoplay]}
               navigation
               pagination={{ clickable: true }}
+              zoom={true}
+              autoplay={{ delay: 3500, disableOnInteraction: false }}
               className="rounded-xl"
             >
               {tour.imagenes.map((imgUrl, index) => (
                 <SwiperSlide key={index}>
-                  <img
-                    src={imgUrl}
-                    alt={`Imagen del tour ${index + 1}`}
-                    className="w-full h-64 object-cover rounded-xl"
-                  />
+                  <div
+                    className="swiper-zoom-container w-full h-64 relative rounded-xl overflow-hidden"
+                    style={{ minHeight: '16rem', position: 'relative' }} // refuerzo adicional
+                  >
+                    <Image
+                      src={imgUrl}
+                      alt={`Imagen del tour ${index + 1}`}
+                      fill
+                      className="object-cover cursor-zoom-in"
+                      sizes="(max-width: 768px) 100vw, 400px"
+                      onClick={(e) => {
+                        const el = e.currentTarget.closest('.swiper-slide');
+                        if (el?.requestFullscreen) {
+                          el.requestFullscreen();
+                        }
+                      }}
+                    />
+                  </div>
                 </SwiperSlide>
+
               ))}
             </Swiper>
 
