@@ -23,7 +23,7 @@ const CardBirds: React.FC<CardBirdsProps> = ({ bird }) => {
 
   return (
     <div
-      className="w-full sm:max-w-sm perspective"
+      className="w-full sm:max-w-sm perspective transition-transform duration-300 hover:scale-105"
       aria-label={`Tarjeta de ave: ${bird.nombre}`}
     >
       <div

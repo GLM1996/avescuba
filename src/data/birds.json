@@ -40,7 +40,7 @@
     "epoca": ["Todo el año"],
     "tipo": "Endémica",
     "rareza": "Muy Rara",
-    "imagen": "/birds/cabrerito.jpg",
+    "imagen": "/birds/cabrerito.webp",
     "sonido": "/sounds/cabrerito.mp3"
   },
   {
@@ -51,19 +51,19 @@
     "epoca": ["Todo el año"],
     "tipo": "Endémica",
     "rareza": "En peligro crítico",
-    "imagen": "/birds/gavilan.jpg",
+    "imagen": "/birds/gavilan.webp",
     "sonido": "/sounds/gavilan.mp3"
   },
   {
     "id": 6,
-    "nombre": "Carpintero Verde",
-    "cientifico": "Xiphidiopicus percussus",
-    "region": ["Toda Cuba"],
+    "nombre": "Flamenco Rosado",
+    "cientifico": "Phoenicopterus ruber",
+    "region": ["Ciego de Ávila", "Camagüey", "Cienfuegos"],
     "epoca": ["Todo el año"],
-    "tipo": "Endémica",
-    "rareza": "Común",
-    "imagen": "/birds/carpintero.jpg",
-    "sonido": "/sounds/carpintero.mp3"
+    "tipo": "Residente",
+    "rareza": "Localmente común",
+    "imagen": "/birds/flamenco.webp",
+    "sonido": "/sounds/flamenco.mp3"
   },
   {
     "id": 7,
@@ -75,17 +75,17 @@
     "rareza": "Críticamente amenazada",
     "imagen": "/birds/gallinuela.jpg",
     "sonido": "/sounds/gallinuela.mp3"
-  },
+  },  
   {
     "id": 8,
-    "nombre": "Flamenco Rosado",
-    "cientifico": "Phoenicopterus ruber",
-    "region": ["Ciego de Ávila", "Camagüey", "Cienfuegos"],
+    "nombre": "Carpintero Verde",
+    "cientifico": "Xiphidiopicus percussus",
+    "region": ["Toda Cuba"],
     "epoca": ["Todo el año"],
-    "tipo": "Residente",
-    "rareza": "Localmente común",
-    "imagen": "/birds/flamenco.jpg",
-    "sonido": "/sounds/flamenco.mp3"
+    "tipo": "Endémica",
+    "rareza": "Común",
+    "imagen": "/birds/carpintero.webp",
+    "sonido": "/sounds/carpintero.mp3"
   },
   {
     "id": 9,
