@@ -1,17 +1,44 @@
-// components/BotonWhatsapp.tsx
+'use client';
+
+import { useEffect, useState } from 'react';
 import { FaWhatsapp } from 'react-icons/fa';
 
+const numero = '5358524424'; // ← Tu número real
+const mensaje = 'Hola, estoy interesado en los tours de aves en Cuba';
+
 const BtnContact = () => {
+  const [visible, setVisible] = useState(false);
+
+  useEffect(() => {
+    const mostrarAlHacerScroll = () => {
+      setVisible(window.scrollY > 200);
+    };
+
+    window.addEventListener('scroll', mostrarAlHacerScroll);
+    return () => window.removeEventListener('scroll', mostrarAlHacerScroll);
+  }, []);
+
+  if (!visible) return null;
+
+  const enlace = `https://wa.me/${numero}?text=${encodeURIComponent(mensaje)}`;
+
   return (
-    <a
-      href="https://wa.me/5358524424?text=Hola,%20estoy%20interesado%20en%20los%20tours%20de%20aves%20en%20Cuba"
-      target="_blank"
-      rel="noopener noreferrer"
-      className="fixed bottom-6 right-6 z-50 bg-green-500 hover:bg-green-600 text-white rounded-full p-4 shadow-lg transition-all"
-      aria-label="Contactar por WhatsApp"
-    >
-      <FaWhatsapp className="w-6 h-6" />
-    </a>
+    <div className="md:hidden fixed bottom-5 right-5 z-50 flex items-center space-x-2">
+      {/* Tooltip visible solo si hay espacio (ej: no en pantallas muy pequeñas) */}
+      <div className="hidden sm:flex items-center bg-gray-800 text-white text-sm px-3 py-1 rounded-md shadow-md whitespace-nowrap animate-fade-in">
+        Escríbenos por WhatsApp
+      </div>
+
+      <a
+        href={enlace}
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Contactar por WhatsApp"
+        className="bg-green-500 hover:bg-green-600 text-white p-4 rounded-full shadow-lg transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-green-300"
+      >
+        <FaWhatsapp className="w-6 h-6" />
+      </a>
+    </div>
   );
 };
 
