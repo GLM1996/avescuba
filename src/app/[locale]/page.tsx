@@ -4,6 +4,7 @@ import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import Gallery from './components/Gallery';
 import Tours from './components/Tours';
+import BtnContact from './components/ui/BtnContact';
 
 export default function HomePage() {
 
@@ -13,6 +14,7 @@ export default function HomePage() {
       <Hero />
       <Tours />
       <Gallery />
+      <BtnContact/>
     </div>
   );
 }
