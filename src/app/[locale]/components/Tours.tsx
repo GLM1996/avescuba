@@ -39,6 +39,22 @@ export default function Tours() {
         </div>
         
       </div>
+      {/* SVG curve at bottom */}
+      <svg
+        className="absolute bottom-0 left-0 w-full pointer-events-none"
+        viewBox="0 0 1440 100"
+        preserveAspectRatio="none"
+        style={{ height: '80px', display: 'block' }}
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        
+
+        <path
+          fill="#fff"
+          //d="M0,30 C360,80 1080,-20 1440,30 L1440,100 L0,100 Z"
+          d="M0,50 C360,130 1080,-70 1440,50 L1440,100 L0,100 Z"
+        />
+      </svg>
     </section>
   );
 }
