@@ -17,7 +17,7 @@ type Tour = {
   recorrido: string;
   horario: string;
   meses: string;
-  caracteristicas: [];
+  caracteristicas: string[];
   descripcion: string;
   imagen: string;
   imagenes: string[];
