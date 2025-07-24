@@ -1,6 +1,6 @@
 'use client';
 
-import React, { useState, useRef, useEffect } from 'react';
+import React, { useState } from 'react';
 import Image from 'next/image';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Pagination, Zoom, Autoplay, Scrollbar } from 'swiper/modules';
@@ -84,13 +84,13 @@ const CardTours: React.FC<CardToursProps> = ({ tour }) => {
             <div className="flex gap-3 mt-5">
               <button
                 onClick={() => setStatus('detalles')}
-                className="w-full py-2 px-4 bg-yellow-500 text-white text-sm font-medium rounded-lg hover:bg-yellow-600"
+                className="w-full py-2 px-4 bg-green-950 border-green-400 border-3 text-white text-sm font-medium rounded-lg hover:bg-green-800"
               >
                 Detalles
               </button>
               <button
                 onClick={() => setStatus('imagenes')}
-                className="w-full py-2 px-4 bg-yellow-500 text-white text-sm font-medium rounded-lg hover:bg-yellow-600"
+                className="w-full py-2 px-4 bg-green-950 border-green-400 border-3 text-white text-sm font-medium rounded-lg hover:bg-green-800"
               >
                 Imágenes
               </button>
@@ -122,7 +122,8 @@ const CardTours: React.FC<CardToursProps> = ({ tour }) => {
               modules={[Navigation, Autoplay]}
               navigation={{
                 nextEl: '.custom-swiper-next',
-                prevEl: '.custom-swiper-prev'
+                prevEl: '.custom-swiper-prev',
+                disabledClass: 'swiper-button-disabled-custom' // Clase cuando el botón está deshabilitado
               }}
               autoplay={{ delay: 3500, disableOnInteraction: false }}
               className="w-full h-full rounded-xl relative group" // Added 'group' para efectos hover
@@ -136,6 +137,7 @@ const CardTours: React.FC<CardToursProps> = ({ tour }) => {
                       fill
                       className="object-cover"
                       sizes="(max-width: 768px) 100vw, 400px"
+                      quality={70}
                     />
                   </div>
                 </SwiperSlide>

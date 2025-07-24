@@ -42,3 +42,11 @@ body {
   transform: rotateY(180deg);
 }
 
+/* Si estás usando CSS puro */
+.custom-swiper-prev.swiper-button-disabled-custom,
+.custom-swiper-next.swiper-button-disabled-custom {
+  opacity: 0.3 !important;
+  cursor: not-allowed;
+  pointer-events: none;
+}
+
