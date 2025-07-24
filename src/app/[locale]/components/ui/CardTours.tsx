@@ -14,6 +14,10 @@ type Tour = {
   id: number;
   nombre: string;
   dificultad: string;
+  recorrido: string;
+  horario: string;
+  meses: string;
+  caracteristicas: [];
   descripcion: string;
   imagen: string;
   imagenes: string[];
@@ -45,18 +49,54 @@ const CardTours: React.FC<CardToursProps> = ({ tour }) => {
           </div>
 
           <div className="flex flex-col flex-1 justify-between p-5">
-            <div>
-              <h3 className="text-lg font-semibold text-gray-900">{tour.nombre}</h3>
-              <div className="flex items-center flex-wrap gap-2 mb-3">
-              <span className="text-gray-800 text-sm">
-                Dificultad:
-              </span>
-              <span className="px-2 py-1 bg-green-50 text-green-800 text-xs font-medium rounded-full">
-                {tour.dificultad}
-              </span>
-            </div>
+            <div className="space-y-3">
+              <h3 className="font-bold text-gray-900 tracking-tight">{tour.nombre}</h3>
+              <div className='flex justify-between'>
+                <div className="flex items-center flex-wrap gap-2">
+                  <span className="text-gray-700 text-sm font-medium">Dificultad:</span>
+                  <span className="inline-block px-2.5 py-1 rounded-full text-xs font-semibold bg-emerald-100 text-emerald-800 shadow-sm">
+                    {tour.dificultad}
+                  </span>
+                </div>
 
-              <p className="text-sm italic text-gray-500 mt-2 line-clamp-4">{tour.descripcion}</p>
+                <div className="flex items-center flex-wrap gap-2">
+                  <span className="text-gray-700 text-sm font-medium">Recorrido:</span>
+                  <span className="inline-block px-2.5 py-1 rounded-full text-xs font-semibold bg-emerald-100 text-emerald-800 shadow-sm">
+                    {tour.recorrido}
+                  </span>
+                </div>
+              </div>
+              <div className='flex justify-between'>
+                <div className="flex items-center flex-wrap gap-2">
+                  <span className="text-gray-700 text-sm font-medium">Horario:</span>
+                  <span className="inline-block px-2.5 py-1 rounded-full text-xs font-semibold bg-emerald-100 text-emerald-800 shadow-sm">
+                    {tour.horario}
+                  </span>
+                </div>
+
+                <div className="flex items-center flex-wrap gap-2">
+                  <span className="text-gray-700 text-sm font-medium">Meses:</span>
+                  <span className="inline-block px-2.5 py-1 rounded-full text-xs font-semibold bg-emerald-100 text-emerald-800 shadow-sm">
+                    {tour.meses}
+                  </span>
+                </div>
+              </div>
+
+              <div className="space-y-1">
+                <span className="block text-white text-sm font-bold text-center bg-gray-500 rounded-xl">
+                  Características principales:
+                </span>
+                <div className="flex flex-wrap gap-2 mt-1">
+                  {tour.caracteristicas.map((item, index) => (
+                    <span
+                      key={index}
+                      className="inline-block px-3 py-1 rounded-full text-xs font-medium bg-emerald-100 text-emerald-800 shadow-sm"
+                    >
+                      {item}
+                    </span>
+                  ))}
+                </div>
+              </div>
             </div>
 
             <div className="flex gap-3 mt-5">
@@ -77,55 +117,57 @@ const CardTours: React.FC<CardToursProps> = ({ tour }) => {
         </div>
 
         {/* Back - Detalles or Imágenes */}
-        <div className="absolute w-full h-full backface-hidden rotate-y-180 rounded-xl bg-white border border-gray-200 shadow-md flex flex-col p-5 overflow-y-auto">
-          {status === 'imagenes' ? (
-            <div className='flex-1 space-y-4'>
-              <Swiper
-                modules={[Navigation, Pagination, Zoom, Autoplay]}
-                navigation
-                pagination={{ clickable: true }}
-                zoom={true}
-                autoplay={{ delay: 3500, disableOnInteraction: false }}
-                className="rounded-xl"
-              >
-                {tour.imagenes.map((imgUrl, index) => (
-                  <SwiperSlide key={index}>
-                    <div
-                      className="swiper-zoom-container w-full h-64 relative rounded-xl overflow-hidden"
-                      style={{ minHeight: '16rem', position: 'relative' }}
-                    >
-                      <Image
-                        src={imgUrl}
-                        alt={`Imagen del tour ${index + 1}`}
-                        fill
-                        className="object-cover cursor-zoom-in"
-                        sizes="(max-width: 768px) 100vw, 400px"
-                        onClick={(e) => {
-                          const el = e.currentTarget.closest('.swiper-slide');
-                          if (el?.requestFullscreen) {
-                            el.requestFullscreen();
-                          }
-                        }}
-                      />
-                    </div>
-                  </SwiperSlide>
-                ))}
-              </Swiper>
-              <div>
-                <h3 className="text-xl font-bold text-gray-900 mt-4">{tour.nombre}</h3>
-                <p className="text-gray-700 text-sm whitespace-pre-line mt-2">{tour.descripcion}</p>
+        <div className="absolute w-full h-full backface-hidden rotate-y-180 rounded-xl bg-white border border-gray-200 shadow-md flex flex-col">
+          {/* CONTENIDO SCROLLEABLE */}
+          <div className="flex-1 overflow-y-auto p-5">
+            {status === 'imagenes' ? (
+              <div className='space-y-4'>
+                <Swiper
+                  modules={[Navigation, Pagination, Zoom, Autoplay]}
+                  navigation
+                  pagination={{ clickable: true }}
+                  zoom={true}
+                  autoplay={{ delay: 3500, disableOnInteraction: false }}
+                  className="rounded-xl"
+                >
+                  {tour.imagenes.map((imgUrl, index) => (
+                    <SwiperSlide key={index}>
+                      <div
+                        className="swiper-zoom-container w-full h-64 relative rounded-xl overflow-hidden"
+                        style={{ minHeight: '16rem' }}
+                      >
+                        <Image
+                          src={imgUrl}
+                          alt={`Imagen del tour ${index + 1}`}
+                          fill
+                          className="object-cover cursor-zoom-in"
+                          sizes="(max-width: 768px) 100vw, 400px"
+                          onClick={(e) => {
+                            const el = e.currentTarget.closest('.swiper-slide');
+                            if (el?.requestFullscreen) {
+                              el.requestFullscreen();
+                            }
+                          }}
+                        />
+                      </div>
+                    </SwiperSlide>
+                  ))}
+                </Swiper>
+                <div>
+                  <h3 className="text-xl font-bold text-gray-900 mt-4">{tour.nombre}</h3>
+                  <p className="text-gray-700 text-sm whitespace-pre-line mt-2">{tour.descripcion}</p>
+                </div>
               </div>
-            </div>
-          ) : (
-            <div className="p-5 flex flex-col justify-between flex-1">
+            ) : (
               <div>
                 <h3 className="text-lg font-semibold text-gray-900">{tour.nombre}</h3>
                 <p className="text-sm italic text-gray-500 mt-2">{tour.descripcion}</p>
               </div>
-            </div>
-          )}
+            )}
+          </div>
 
-          <div className="flex gap-3 p-5 mt-auto">
+          {/* BOTÓN FIJO ABAJO */}
+          <div className="p-5 border-t border-gray-200 bg-white">
             <button
               onClick={() => setStatus('portada')}
               className="w-full py-2 px-4 bg-gray-800 text-white text-sm font-medium rounded-lg hover:bg-gray-600"
@@ -134,6 +176,7 @@ const CardTours: React.FC<CardToursProps> = ({ tour }) => {
             </button>
           </div>
         </div>
+
       </div>
     </div>
   );
