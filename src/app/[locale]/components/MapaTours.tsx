@@ -1,6 +1,8 @@
 "use client"; // React Leaflet requiere estar en cliente
 
 import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
+import 'leaflet/dist/leaflet.css';
+
 import L from "leaflet";
 
 // Corregir iconos default de Leaflet para Next.js

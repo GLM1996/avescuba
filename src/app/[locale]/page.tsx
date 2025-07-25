@@ -20,7 +20,7 @@ export default function HomePage() {
       <Gallery />
       <BtnContact/>
       <TestimoniosSlider/>
-      
+      <MapaTours/>
       <SobreNosotros/>
       <Contactame/>
       <Footer/>
