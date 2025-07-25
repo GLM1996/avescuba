@@ -43,7 +43,7 @@ const tours: {
 
 export default function MapaTours() {
   return (
-    <section className="my-12 px-4 sm:px-8 max-w-6xl mx-auto">
+    <section className="my-12 px-4 sm:px-8 max-w-6xl mx-auto z-0">
       <h2 className="text-3xl font-bold mb-6 text-center">Ubicaciones de Tours</h2>
       <MapContainer
         center={[22.5, -81.0]} // Centro aproximado de Cuba

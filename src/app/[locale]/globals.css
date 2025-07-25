@@ -53,4 +53,13 @@ body {
   cursor: not-allowed;
   pointer-events: none;
 }
+.leaflet-container {
+  z-index: 0 !important;
+}
+
+.leaflet-pane,
+.leaflet-popup {
+  z-index: 10 !important;
+}
+
 
