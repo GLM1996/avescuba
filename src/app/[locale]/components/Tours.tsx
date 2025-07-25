@@ -40,8 +40,7 @@ export default function Tours() {
             </CardTourAnimation>
           ))}
 
-        </div> quiero hacer animaciones a estas card
-
+        </div> 
       </div>
       {/* SVG curve at bottom */}
       <svg

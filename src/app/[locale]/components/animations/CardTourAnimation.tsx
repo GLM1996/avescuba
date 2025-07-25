@@ -21,7 +21,7 @@ export const CardTourAnimation: React.FC<CardTourAnimationProps> = ({
     initial={{ opacity: 0, scale: 0.95 }}
     whileInView={{ opacity: 1, scale: 1 }}
     transition={{ duration, delay }}
-    viewport={{ once: animateOnce, margin: "-50px" }}
+    viewport={{ once: animateOnce, margin: "-30px" }}
   >
     {children}
   </motion.div>
