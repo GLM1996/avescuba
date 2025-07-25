@@ -21,6 +21,7 @@ export default function Gallery() {
     <section
       className="relative w-full bg-cover bg-center bg-no-repeat py-16 px-4"
       style={{ backgroundImage: "url('/gallery/gallery1.webp')" }}
+      id='gallery'
     >
 
       {/* SVG curve at top (inverted) */}

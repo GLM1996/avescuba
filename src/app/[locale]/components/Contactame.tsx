@@ -5,7 +5,7 @@ export default function Contactame() {
     const mailtoLink = `mailto:${correo}`;
   
     return (
-      <section className="py-12 px-4 sm:px-8 max-w-4xl mx-auto bg-white rounded-xl shadow-md flex flex-col md:flex-row items-center gap-8 mt-8">
+      <section className="py-12 px-4 sm:px-8 max-w-4xl mx-auto bg-white rounded-xl shadow-md flex flex-col md:flex-row items-center gap-8 mt-8" id="contact">
         {/* Foto */}
         <div className="w-40 h-40 rounded-full overflow-hidden shadow-lg flex-shrink-0">
           <img

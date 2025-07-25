@@ -43,7 +43,7 @@ export default function LanguageDropdown() {
     <div className="relative inline-block text-left z-50">
       <button
         onClick={() => setOpen(!open)}
-        className="inline-flex items-center gap-1 px-2 py-1 border border-green-600 dark:border-green-400 bg-white dark:bg-green-950 text-green-800 dark:text-green-100 font-semibold rounded-md shadow-sm hover:bg-green-100 dark:hover:bg-green-900 transition-all text-sm"
+        className="inline-flex items-center gap-1 px-2 py-1 border border-green-600 dark:border-green-400 bg-white dark:bg-green-950 text-green-800 dark:text-green-100 font-semibold rounded-md shadow-sm hover:bg-green-100 dark:hover:bg-green-900 transition-all text-sm cursor-pointer"
         type="button"
         aria-haspopup="true"
         aria-expanded={open}

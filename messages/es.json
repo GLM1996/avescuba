@@ -4,8 +4,13 @@
     "about": "Go to the about page"
   },
   "Navbar": {
-    "inicio": "Inicio",
-    "sobre": "Sobre Nosotros"
+    "home": "Inicio",
+    "tours": "Recorridos",
+    "gallery": "Galería",
+    "testimonials": "Testimonios",
+    "locations": "Ubicaciones",
+    "about": "Sobre Nosotros",
+    "contact": "Contáctame"
   },
   "Hero": {
     "title": "Descubre las Aves de Cuba.",

@@ -1,25 +1,56 @@
+"use client";
+
 import { useTranslations } from 'next-intl';
 import React from 'react';
+import { motion } from 'framer-motion';
+import { BackgroundAnimation } from './animations/BackgroundAnimation';
 
 export default function Hero() {
   const t = useTranslations('Hero');
 
   return (
-    <section
-      className="relative h-screen w-full bg-cover bg-center bg-no-repeat"
-      style={{ backgroundImage: "url('/hero/hero1.webp')" }}
-    >
+    <section className="relative h-screen w-full overflow-hidden">
+      {/* Animated Background */}
+
+      <BackgroundAnimation
+        animation="slide"
+        duration={0.5}
+        backgroundImage="url('/hero/hero1.webp')"
+      />
+
       {/* Overlay */}
       <div className="absolute inset-0 bg-black/30" />
 
       {/* Content */}
-      <div className="relative z-10 flex flex-col items-center justify-center h-full text-center text-white px-4">
+      <motion.div
+        className="relative z-10 flex flex-col items-center justify-center h-full text-center text-white px-4"
+        initial={{ opacity: 0, y: 20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ delay: 0.5, duration: 0.8, ease: "easeOut" }}
+      >
         <h1 className="text-4xl md:text-6xl font-bold mb-4">{t('title')}</h1>
         <p className="text-lg md:text-xl max-w-xl mb-6">{t('subtitle')}</p>
-        <button className="bg-rose-500 hover:bg-rose-600 text-white font-semibold py-3 px-6 rounded-2xl shadow-md transition duration-300">
+        <a
+          href="#contact"
+          className="
+            bg-gradient-to-r from-green-700 to-green-500
+            hover:from-green-600 hover:to-green-400
+            text-white font-semibold
+            py-3 px-8
+            rounded-full
+            shadow-lg
+            transition
+            duration-300
+            ease-in-out
+            cursor-pointer
+            select-none
+            focus:outline-none
+            focus:ring-4 focus:ring-green-300
+          "
+        >
           {t('button')}
-        </button>
-      </div>
+        </a>
+      </motion.div>
 
       {/* SVG curve at bottom */}
       <svg
@@ -29,13 +60,7 @@ export default function Hero() {
         style={{ height: '80px', display: 'block' }}
         xmlns="http://www.w3.org/2000/svg"
       >
-        
-
-        <path
-          fill="#fff"
-          //d="M0,30 C360,80 1080,-20 1440,30 L1440,100 L0,100 Z"
-          d="M0,50 C360,130 1080,-70 1440,50 L1440,100 L0,100 Z"
-        />
+        <path fill="#fff" d="M0,50 C360,130 1080,-70 1440,50 L1440,100 L0,100 Z" />
       </svg>
     </section>
   );
