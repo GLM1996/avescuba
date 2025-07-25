@@ -1,4 +1,3 @@
-
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import Gallery from './components/Gallery';
@@ -6,6 +5,7 @@ import Tours from './components/Tours';
 import BtnContact from './components/ui/BtnContact';
 import TestimoniosSlider from './components/TestimoniosSlider';
 import MapaTours from "./components/MapaTours";
+import MapaToursClient from './components/MapaToursClient';
 import SobreNosotros from "./components/SobreNosotros";
 import Contactame from './components/Contactame';
 import Footer from './components/Footer';
@@ -20,7 +20,7 @@ export default function HomePage() {
       <Gallery />
       <BtnContact/>
       <TestimoniosSlider/>
-      <MapaTours/>
+      <MapaToursClient/>
       <SobreNosotros/>
       <Contactame/>
       <Footer/>

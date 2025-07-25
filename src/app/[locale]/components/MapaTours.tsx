@@ -6,7 +6,7 @@ import 'leaflet/dist/leaflet.css';
 import L from "leaflet";
 
 // Corregir iconos default de Leaflet para Next.js
-delete L.Icon.Default.prototype._getIconUrl;
+delete (L.Icon.Default.prototype as any)._getIconUrl;
 L.Icon.Default.mergeOptions({
   iconRetinaUrl:
     "https://unpkg.com/leaflet@1.9.4/dist/images/marker-icon-2x.png",
@@ -14,7 +14,12 @@ L.Icon.Default.mergeOptions({
   shadowUrl: "https://unpkg.com/leaflet@1.9.4/dist/images/marker-shadow.png",
 });
 
-const tours = [
+const tours: {
+  id: number;
+  nombre: string;
+  posicion: [number, number];  // <-- tuple de dos números
+  descripcion: string;
+}[] = [
   {
     id: 1,
     nombre: "Tour en La Habana",
@@ -34,6 +39,7 @@ const tours = [
     descripcion: "Conoce la Perla del Sur y su arquitectura colonial.",
   },
 ];
+
 
 export default function MapaTours() {
   return (
