@@ -4,6 +4,11 @@ import Hero from './components/Hero';
 import Gallery from './components/Gallery';
 import Tours from './components/Tours';
 import BtnContact from './components/ui/BtnContact';
+import TestimoniosSlider from './components/TestimoniosSlider';
+import MapaTours from "./components/MapaTours";
+import SobreNosotros from "./components/SobreNosotros";
+import Contactame from './components/Contactame';
+import Footer from './components/Footer';
 
 export default function HomePage() {
 
@@ -14,6 +19,11 @@ export default function HomePage() {
       <Tours />
       <Gallery />
       <BtnContact/>
+      <TestimoniosSlider/>
+      
+      <SobreNosotros/>
+      <Contactame/>
+      <Footer/>
     </div>
   );
 }

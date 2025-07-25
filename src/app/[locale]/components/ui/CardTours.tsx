@@ -46,7 +46,7 @@ const CardTours: React.FC<CardToursProps> = ({ tour }) => {
   };
 
   return (
-    <div className="relative w-full sm:max-w-sm h-[28rem] overflow-hidden rounded-xl border border-gray-200 shadow-md">
+    <div className="relative w-full sm:max-w-sm h-[28rem] overflow-hidden rounded-xl border border-gray-200 shadow-md hover:scale-105 transition-transform duration-300">
       <div
         className={`flex flex-row h-full w-full transition-transform duration-500 ease-in-out ${getTranslate()}`}
       >

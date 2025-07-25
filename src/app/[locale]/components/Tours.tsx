@@ -26,7 +26,7 @@ export default function Tours() {
           d="M0,50 C360,130 1080,-70 1440,50 L1440,100 L0,100 Z"
         />
       </svg>
-      <div className="max-w-7xl mx-auto mt-20">
+      <div className="max-w-7xl mx-auto mt-20 mb-3">
         <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-10 text-center">
           Servicios de Tours
         </h2>        
