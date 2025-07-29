@@ -12,7 +12,7 @@ interface CardTourAnimationProps {
 export const CardTourAnimation: React.FC<CardTourAnimationProps> = ({
   children,
   delay = 0,
-  duration = 0.6,
+  duration = 0.3,
   style = {},
   animateOnce = true,
 }) => (

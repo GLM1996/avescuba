@@ -1,8 +1,41 @@
+"use client"
+
+import { FaWhatsapp, FaEnvelope, FaPhone, FaLinkedin } from "react-icons/fa";
+import { motion } from "framer-motion";
+
 export default function Contactame() {
-  const telefono = "+5355512345";
-  const correo = "contacto@tudominio.com";
-  const whatsappLink = `https://wa.me/${telefono.replace(/\D/g, "")}`;
-  const mailtoLink = `mailto:${correo}`;
+  const contacts = [
+    {
+      icon: <FaWhatsapp className="w-6 h-6 text-green-500" />,
+      label: "WhatsApp",
+      link: "https://wa.me/5358524424",
+      display: "+53 58524424",
+    },
+    {
+      icon: <FaEnvelope className="w-6 h-6 text-purple-600" />,
+      label: "Email",
+      link: "mailto:estrellaglm96@gmail.com",
+      display: "estrellaglm96@gmail.com",
+    },
+    {
+      icon: <FaPhone className="w-6 h-6 text-blue-600" />,
+      label: "Teléfono",
+      link: "tel:+5358524424",
+      display: "+53 58524424",
+    },
+  ];
+
+  const containerVariants = {
+    hidden: {},
+    visible: {
+      transition: { staggerChildren: 0.15 },
+    },
+  };
+
+  const itemVariants = {
+    hidden: { opacity: 0, x: -20 },
+    visible: { opacity: 1, x: 0, transition: { duration: 0.5 } },
+  };
 
   return (
     <section
@@ -24,49 +57,50 @@ export default function Contactame() {
         />
       </svg>
 
-      <div className="max-w-3xl mx-auto flex flex-col items-center gap-8 bg-white/90 backdrop-blur-sm rounded-2xl p-8 shadow-lg border border-white/40 text-gray-800 text-center">
-        {/* Foto circular */}
-        <div className="w-36 h-36 rounded-full overflow-hidden shadow-xl border-4 border-white">
-          <img
-            src="/tours/t2.jpeg"
-            alt="Foto de contacto"
-            className="object-cover w-full h-full"
+      <div className="py-6 mx-4 sm:py-12 px-6 sm:px-20 text-gray-800 font-bold bg-white/90 backdrop-blur-sm my-6 max-w-6xl md:mx-auto rounded-2xl">
+
+        <h2 className="text-3xl font-bold text-center my-12">Contáctame</h2>
+        <div className="max-w-6xl  flex flex-col md:flex-row mx-auto items-center justify-around">
+
+          {/* Imagen */}
+          <motion.img
+            src="/hero/hero1.webp"
+            alt="Contacto"
+            className="w-48 h-48 md:w-64 md:h-64 rounded-full shadow-2xl object-cover"
+            initial={{ opacity: 0, scale: 0.8 }}
+            whileInView={{ opacity: 1, scale: 1 }}
+            transition={{ duration: 1.3 }}
+            viewport={{ once: true }}
           />
-        </div>
 
-        {/* Información */}
-        <div className="flex flex-col items-center gap-3 text-center">
-          <h2 className="text-4xl font-extrabold leading-tight">Contáctame</h2>
-
-          <div className="flex flex-col gap-2">
-            <a
-              href={whatsappLink}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center justify-center gap-2 text-green-600 font-semibold hover:underline"
-            >
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="h-6 w-6"
-                fill="currentColor"
-                viewBox="0 0 24 24"
-              >
-                <path d="M20.52 3.48a11.944 11.944 0 00-17.07 17.07l-1.78 5.15 5.15-1.78a11.946 11.946 0 0014.35-14.35zm-7.37 14.21c-2.4 0-4.66-.77-6.54-2.06l-.46-.28-3.1 1.07 1.04-3.02-.3-.48a8.957 8.957 0 01-1.39-5.07c0-4.97 4.04-9.01 9.01-9.01s9.01 4.04 9.01 9.01-4.03 9.01-9.01 9.01z" />
-              </svg>
-              {telefono}
-            </a>
-
-            <a
-              href={mailtoLink}
-              className="text-blue-600 font-semibold hover:underline break-all"
-            >
-              {correo}
-            </a>
-          </div>
+          {/* Contenido */}
+          <motion.div
+            className="flex flex-col gap-6 mt-2"
+            variants={containerVariants}
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true }}
+          >
+            <ul className="flex flex-col gap-6">
+              {contacts.map(({ icon, label, link, display }) => (
+                <motion.li key={label} variants={itemVariants}>
+                  <a
+                    href={link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center gap-4 hover:text-gray-400 transition"
+                  >
+                    {icon}
+                    <span className="text-lg">{display}</span>
+                  </a>
+                </motion.li>
+              ))}
+            </ul>
+          </motion.div>
         </div>
 
       </div>
-      
+
     </section>
   );
 }
