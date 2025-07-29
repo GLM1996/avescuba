@@ -38,7 +38,7 @@ export default function Gallery() {
           d="M0,50 C360,130 1080,-70 1440,50 L1440,100 L0,100 Z"
         />
       </svg>
-      <div className="max-w-7xl mx-auto mt-20">
+      <div className="max-w-7xl mx-auto mt-20 mb-4">
         <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-10 text-center">
           Galería de Aves de Cuba
         </h2>
@@ -88,6 +88,16 @@ export default function Gallery() {
           </p>
         )}
       </div>
+      {/* SVG curve at bottom */}
+      <svg
+        className="absolute bottom-0 left-0 w-full pointer-events-none"
+        viewBox="0 0 1440 100"
+        preserveAspectRatio="none"
+        style={{ height: '80px', display: 'block' }}
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path fill="#fff" d="M0,50 C360,130 1080,-70 1440,50 L1440,100 L0,100 Z" />
+      </svg>
     </section>
   );
 }

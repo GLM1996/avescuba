@@ -57,8 +57,29 @@ const testimonios = [
 
 export default function TestimoniosSlider() {
   return (
-    <section className="bg-gray-50 py-12 px-4 sm:px-8">
-      <h2 className="text-3xl font-bold text-center mb-10">Testimonios de Clientes</h2>
+    <section
+      className="relative w-full bg-cover bg-center bg-no-repeat py-16 px-4 shadow-lg"
+      style={{ backgroundImage: "url('/gallery/gallery1.webp')" }}
+      id='gallery'
+    >
+      {/* SVG curve at top (inverted) */}
+      <svg
+        className="absolute top-0 left-0 w-full pointer-events-none"
+        viewBox="0 0 1440 100"
+        preserveAspectRatio="none"
+        style={{ height: '80px', display: 'block', transform: 'rotate(180deg)' }}
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          fill="#fff"
+          //d="M0,30 C360,80 1080,-20 1440,30 L1440,100 L0,100 Z"
+          d="M0,50 C360,130 1080,-70 1440,50 L1440,100 L0,100 Z"
+        />
+      </svg>
+
+      <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-10 text-center mt-4">
+        Testimonios de Clientes
+      </h2>
       <Swiper
         modules={[Navigation, Pagination, Autoplay]}
         spaceBetween={30}
@@ -71,7 +92,7 @@ export default function TestimoniosSlider() {
         navigation
         pagination={{ clickable: true }}
         autoplay={{ delay: 5000 }}
-        className="max-w-7xl mx-auto"
+        className="max-w-7xl mx-auto mb-4"
       >
         {testimonios.map((t, i) => (
           <SwiperSlide key={i}>
@@ -81,7 +102,7 @@ export default function TestimoniosSlider() {
                 alt={`Foto de ${t.nombre}`}
                 className="w-16 h-16 rounded-full object-cover mx-auto mb-4"
               />
-              <p className="font-semibold text-lg">{t.nombre}</p>
+              <p className="font-semibold text-lg text-gray-800">{t.nombre}</p>
               <div className="flex justify-center mb-2">
                 {Array.from({ length: 5 }).map((_, i) => (
                   <FaStar
@@ -96,6 +117,16 @@ export default function TestimoniosSlider() {
           </SwiperSlide>
         ))}
       </Swiper>
+      {/* SVG curve at bottom */}
+      <svg
+        className="absolute bottom-0 left-0 w-full pointer-events-none"
+        viewBox="0 0 1440 100"
+        preserveAspectRatio="none"
+        style={{ height: '80px', display: 'block' }}
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path fill="#fff" d="M0,50 C360,130 1080,-70 1440,50 L1440,100 L0,100 Z" />
+      </svg>
     </section>
   );
 }

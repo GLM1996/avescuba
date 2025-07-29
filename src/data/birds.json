@@ -8,7 +8,8 @@
     "tipo": "Endémica",
     "rareza": "Común",
     "imagen": "/birds/tocororo.webp",
-    "sonido": "/sounds/tocororo.mp3"
+    "sonido": "/sounds/tocororo.mp3",
+    "descripcion": "Pájaro espléndido, de tamaño mediano, que habita bosques; a menudo se encuentran en parejas. La espalda azul verdosa iridiscente, el pecho gris liso y el vientre rojo brillante lo distinguen fácilmente de todas las demás especies de trogones en su rango. Usualmente, se queda inmóvil cerca del nivel medio del bosque, pero cuando se alimenta (generalmente en flores y frutas) es conspicuo. A menudo se encuentra por sus fuertes llamadas, que son algo variadas. Una llamada común es un cu-cu-cu-cu-cu-cu-cu-cu, a menudo dada en aceleración; otro es un temblor resonante cu-u-lou, emitido varias veces seguidas."
   },
   {
     "id": 2,
@@ -19,7 +20,8 @@
     "tipo": "Endémica",
     "rareza": "Rara",
     "imagen": "/birds/zunzuncito.webp",
-    "sonido": "/sounds/zunzuncito.mp3"
+    "sonido": "/sounds/zunzuncito.mp3",
+    "descripcion": "Este diminuto bebedor de néctar es el ave más pequeña del mundo. Se alimenta de las flores del bosque, especialmente las que están posicionadas más horizontalmente. Los machos a menudo se encuentran perchados en ramas altas expuestas. El macho es impresionante con la cabeza roja iridiscente y las partes superiores turquesas. La hembra también es turquesa arriba, pero es sucia abajo. Esta especie es fácilmente identificada por su tamaño pequeño y su pico relativamente corto. En vuelo, las alas de esta especie hacen un sonido parecido al de un abejorro. La vocalización más común es un gorjeo mezclado, extendido y agudo."
   },
   {
     "id": 3,
@@ -30,7 +32,8 @@
     "tipo": "Endémica",
     "rareza": "Común",
     "imagen": "/birds/cartacuba.webp",
-    "sonido": "/sounds/cartacuba.mp3"
+    "sonido": "/sounds/cartacuba.mp3",
+    "descripcion": "Un pájaro pequeño, como una gema del bosque, que usualmente se encuentra en pares. La cabeza bastante grande, el pico largo y la cola corta crean un perfil único. También nota sus partes superiores verdes brillantes y la garganta y lados rojos. No hay especies similares dentro de su rango. Por lo general, caza desde perchas de nivel bajo a medio, perchado casi inmóvil antes de saltar hacia arriba para agarrar su presa de las ramas y las hojas. Sus vocalizaciones incluyen un fuerte chuk, chuk, chuk, chuk, emitido a una tasa de aproximadamente siete a diez notas por segundo, con cada serie consistiendo de una a diez notas; las series a menudo vienen en rápida sucesión."
   },
   {
     "id": 4,
@@ -41,7 +44,8 @@
     "tipo": "Endémica",
     "rareza": "Muy Rara",
     "imagen": "/birds/cabrerito.webp",
-    "sonido": "/sounds/cabrerito.mp3"
+    "sonido": "/sounds/cabrerito.mp3",
+    "descripcion": "Una hermosa especie con una sutil coloración. El color del vientre varía de amarillo brillante a amarillo-grisáceo y la cabeza está decorada con rayas de bigote blanco y negro y una corona ferruginosa. Con frecuencia se encuentra en pares bajo en la vegetación o en el suelo. No existen especies similares en su rango. Sus llamadas incluyen un parloteo rápido ti-ti-ti ..., un agudo y delgado tzi-tzi-tzi, y una serie rápida de diez o más notas zumbadas que descienden en tono y se vuelven más suaves hacia el final."
   },
   {
     "id": 5,
@@ -52,7 +56,8 @@
     "tipo": "Endémica",
     "rareza": "En peligro crítico",
     "imagen": "/birds/gavilan.webp",
-    "sonido": "/sounds/gavilan.mp3"
+    "sonido": "/sounds/gavilan.mp3",
+    "descripcion": "Ave rapaz tropical rara en el extremo sur de Tejas, pero ampliamente distribuida en Centroamérica y Suramérica. Se encuentran por separado, en parejas, o en pequeños grupos familiares en los bosques, a menudo cerca del agua. Caza dentro del bosque. Cola larga y alas anchas y redondeadas son marcas distintivas en vuelo. Cuando está perchado cerca, nota el pico ganchudo con una base amarilla y pies amarillos. Los machos son de color gris con barras blancas en el vientre. Las hembras son de color marrón por encima con rufo por debajo y la cabeza en su mayoría es gris. Los juveniles son más pálidos en la parte ventral con barras más delgadas. Se alimenta principalmente de caracoles."
   },
   {
     "id": 6,
@@ -63,7 +68,8 @@
     "tipo": "Residente",
     "rareza": "Localmente común",
     "imagen": "/birds/flamenco.webp",
-    "sonido": "/sounds/flamenco.mp3"
+    "sonido": "/sounds/flamenco.mp3",
+    "descripcion": "Ave vadeadora muy localizada e inconfundible, de cuello muy largo en forma de percha, y patas muy largas. El adulto es rosa intenso. Las aves de un año son café con blanco, y obtienen el plumaje adulto completo en dos o tres años. Usualmente se le encuentra en parvadas en lagunas salobres poco profundas. Vuelan en líneas dispersas como los gansos, y sus llamados altos también se asemejan a los de los gansos. Ten en cuenta que algunas personas llaman “flamencos” o “flamingos” a la Espátula Rosada; otra ave vadeadora mucho más ampliamente distribuida, la cual aparte del color, no se asemeja al Flamenco."
   }, 
   {
     "id": 8,
@@ -74,7 +80,8 @@
     "tipo": "Endémica",
     "rareza": "Común",
     "imagen": "/birds/carpintero.webp",
-    "sonido": "/sounds/carpintero.mp3"
+    "sonido": "/sounds/carpintero.mp3",
+    "descripcion": "Un pájaro atractivo, de tamaño relativamente pequeño, de bosques, incluyendo manglares; típicamente se encuentra en pares, a menudo en ramas muertas o moribundas. Este carpintero de espalda verde tiene una corona roja y la cara blanca con una raya negruzca que se extiende desde el ojo hacia atrás. No hay especies similares en su rango. Sus llamadas incluyen un áspero gruhh y un rápido did-it-it."
   },
   {
     "id": 9,
@@ -85,6 +92,7 @@
     "tipo": "Endémica",
     "rareza": "Común",
     "imagen": "/birds/siju.webp",
-    "sonido": "/sounds/siju.mp3"
+    "sonido": "/sounds/siju.mp3",
+    "descripcion": "Un búho muy pequeño y manso de hábitats boscosos que es activo tanto de día como de noche. Este búho bastante lindo tiene una cabeza grande y redondeada con ojos amarillos y cejas blancas prominentemente arqueadas; algunos individuos son mayormente gris, mientras que otros son marrón-rojizo. A menudo sostiene su cola levantada. Típicamente vuela distancias cortas con sus alas redondeadas. El canto es un silbido bajo whuh o huu dado en una serie lenta. Otras vocalizaciones incluyen un silbido alto y delgado, tsii, tsii-tsii-tsii-tsii-tsii-tsii, que se vuelve cada vez más fuerte, y una serie de chillidos agudos. No hay especies similares en su rango."
   }
 ]
