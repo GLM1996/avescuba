@@ -11,7 +11,7 @@ const mensajeEn = 'Hello, I am interested in birdwatching tours in Cuba.';
 const BtnContact = () => {
   const [visible, setVisible] = useState(false);
   const locale = useLocale();
-
+console.log("LOCALE",locale)
   useEffect(() => {
     const mostrarAlHacerScroll = () => {
       setVisible(window.scrollY > 200);
@@ -22,7 +22,7 @@ const BtnContact = () => {
   }, []);
 
   if (!visible) return null;
-  let mensaje = locale === "ES" ? mensajeEs : mensajeEn
+  let mensaje = locale === "es" ? mensajeEs : mensajeEn
   const enlace = `https://wa.me/${numero}?text=${encodeURIComponent(mensaje)}`;
 
   return (
