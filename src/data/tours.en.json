@@ -1,0 +1,155 @@
+[
+  {
+    "id": 1,
+    "nombre": "Las Salinas de Brito, Zapata Swamp. Cuba",
+    "capacidad": "15 People",
+    "dificultad": "Low",
+    "recorrido": "21 km",
+    "horario": "8:00 AM - 4:00 PM",
+    "meses": "Nov to May",
+    "caracteristicas": ["Flamingos", "Pink", "Herons", "Sevillas", "Cormorants", "Hawks"],
+    "descripcion": "The route is very easy and done using light transportation. This itinerary follows a 21 km embankment, the first 12 km consisting of semi-deciduous forest formations, mangroves, and swamp forests where endemic and migratory forest birds stand out. The second part reaches marshes with a great variety of aquatic birds that give the place exceptional beauty for their bright colors, predominated by Pink Flamingos, Herons, Sevillas, Cormorants, Hawks, and other species of birds, fish, and crustaceans. At the end of the trail is the area's management station and the recreational sport fishing area. Excursion recommended from November to May, when migratory birds arrive at Las Salinas, offering a spectacular array of species and colors.",
+    "imagen": "/tours/t1.jpeg",
+    "imagenes": [
+      "/tours/t2.jpeg",
+      "/tours/t3.jpeg",
+      "/tours/t4.jpeg"
+    ]
+  },
+  {
+    "id": 2,
+    "nombre": "Bermejas, Zapata Swamp. Cuba",
+    "capacidad": "15 People",
+    "dificultad": "Medium",
+    "recorrido": "21 km",
+    "horario": "8:00 AM - 4:00 PM",
+    "meses": "Nov to May",
+    "caracteristicas": ["Flamingos", "Pink", "Herons", "Sevillas", "Cormorants", "Hawks"],
+    "descripcion": "Located in the eastern zone of the Protected Area of Managed Resources and Biosphere Reserve of the Zapata Peninsula, north of the town of Bermejas. The trail is done with little difficulty, on foot and using some abandoned forest roads; vehicles can reach the trail entrance from the Bermejas Highway where it is guided by specialized personnel in birdwatching from the National Park. The trail crosses a large strip of semi-deciduous and swamp forests that remain semi-flooded during the rainy season. Along the way, up to 21 of the 27 endemic Cuban species can be seen such as Doves, Parrots, Woodpeckers, Sijús, Cateyes, and the Bee Hummingbird, the smallest bird in the world. Visit hours: from 8:00 AM to 4:00 PM. It is better to visit in the morning, if possible arriving at 6:00 or 7:00 AM, due to the large concentration of birds that can be seen at that time. Specialized trail for birdwatchers.",
+    "imagen": "/tours/t30.jpeg",
+    "imagenes": [
+      "/tours/t5.jpeg",
+      "/tours/t6.jpeg",
+      "/tours/t7.jpeg"
+    ]
+  },
+  {
+    "id": 3,
+    "nombre": "Santo Tomas, Zapata Swamp. Cuba",
+    "capacidad": "15 People",
+    "dificultad": "Medium",
+    "recorrido": "21 km",
+    "horario": "8:00 AM - 4:00 PM",
+    "meses": "Nov to May",
+    "caracteristicas": ["Flamingos", "Pink", "Herons", "Sevillas", "Cormorants", "Hawks"],
+    "descripcion": "Access is done with little difficulty. Visitors reach the place via an embankment to the ecological station belonging to the National Park. From there, a pole-powered boat is taken, guided by specialized birdwatching personnel from the National Park. Using a 1.5 km long canal, visitors access the site dedicated to observing three local endemic species: the Ferminia, the Zapata Sparrow, and the Zapata Wren. During the journey, other bird species such as the Cartacuba, Tocororo, Parrots, Cateyes, Woodpeckers, and Bee Hummingbirds can also be spotted. Visit hours: 8:00 AM to 4:00 PM. Recommendation: it is preferable to visit in the morning, arriving between 5:30 and 6:00 AM, due to the higher feeding activity of endemic species at those hours and the reduction of winds, which tend to make birds hide.",
+    "imagen": "/tours/t31.jpeg",
+    "imagenes": [
+      "/tours/t8.jpeg",
+      "/tours/t9.jpeg",
+      "/tours/t10.jpeg"
+    ]
+  },
+  {
+    "id": 4,
+    "nombre": "Soplillar, Zapata Swamp. Cuba",
+    "capacidad": "15 People",
+    "dificultad": "Medium",
+    "recorrido": "21 km",
+    "horario": "8:00 AM - 4:00 PM",
+    "meses": "Nov to May",
+    "caracteristicas": ["Flamingos", "Pink", "Herons", "Sevillas", "Cormorants", "Hawks"],
+    "descripcion": "The site is accessed by road. It is located 3 km from the eastern coast of the Bay of Pigs, on the road connecting Playa Larga with Playa Girón. The hike is done with little difficulty. The trail crosses a semi-deciduous forest, with a wide extension of savanna areas that flood during the summer season. Along the route, a wide variety of endemic and migratory birds can be observed. Visit hours: 8:00 AM to 4:00 PM. Recommendation: it is preferable to visit in the mornings, although it is also possible to explore it in the afternoons before nightfall.",
+    "imagen": "/tours/t32.jpeg",
+    "imagenes": [
+      "/tours/t11.jpeg",
+      "/tours/t12.jpeg",
+      "/tours/t13.jpeg"
+    ]
+  },
+  {
+    "id": 5,
+    "nombre": "River tour on the Hatiguanico River",
+    "capacidad": "15 People",
+    "dificultad": "Medium",
+    "recorrido": "21 km",
+    "horario": "8:00 AM - 4:00 PM",
+    "meses": "Nov to May",
+    "caracteristicas": ["Flamingos", "Pink", "Herons", "Sevillas", "Cormorants", "Hawks"],
+    "descripcion": "Access is via an embankment of approximately 8 kilometers from the point known as Hato de Jicarita (Km 104 of the National Highway). From there, motorboats depart from a dock, navigating the extensive waters of the Hatiguanico River, known as the Amazon of Cuba. During the 14 km journey, exuberant mangroves and a diverse flora and fauna can be appreciated, including fish, aquatic birds, reptiles, and mammals. The tour includes a visit to the river's source, where visitors can enjoy a refreshing swim in its crystal-clear springs. Visit hours: 8:00 AM to 4:00 PM. Recommendation: it is advisable to book the tour at least one day in advance to guarantee availability of the guide and the boat.",
+    "imagen": "/tours/t33.jpeg",
+    "imagenes": [
+      "/tours/t14.jpeg",
+      "/tours/t15.jpeg",
+      "/tours/t16.jpeg"
+    ]
+  },
+  {
+    "id": 6,
+    "nombre": "La Turba, Zapata Swamp. Cuba",
+    "capacidad": "15 People",
+    "dificultad": "Medium",
+    "recorrido": "21 km",
+    "horario": "8:00 AM - 4:00 PM",
+    "meses": "Nov to May",
+    "caracteristicas": ["Flamingos", "Pink", "Herons", "Sevillas", "Cormorants", "Hawks"],
+    "descripcion": "Access is via a path approximately 8 km long, located 500 meters to the right of the main entrance to the Zapata Swamp National Park. The walk is done with little difficulty, crossing an area of canals where a large variety of aquatic and migratory birds can be observed. Of special interest is the observation of three endemic species of the territory: the Ferminia, the Zapata Sparrow, and the Zapata Wren. Visit hours: 8:00 AM to 4:00 PM. Recommendation: it is suggested to visit in the morning hours, arriving between 5:30 and 6:00 AM, when these species are most active in feeding and before the winds force them to hide.",
+    "imagen": "/tours/t34.jpeg",
+    "imagenes": [
+      "/tours/t17.jpeg",
+      "/tours/t18.jpeg",
+      "/tours/t19.jpeg"
+    ]
+  },
+  {
+    "id": 7,
+    "nombre": "Enigma of the Rocks, Zapata Swamp. Cuba",
+    "capacidad": "15 People",
+    "dificultad": "Medium",
+    "recorrido": "21 km",
+    "horario": "8:00 AM - 4:00 PM",
+    "meses": "Nov to May",
+    "caracteristicas": ["Flamingos", "Pink", "Herons", "Sevillas", "Cormorants", "Hawks"],
+    "descripcion": "Area of forests and savannas surrounded by flooded caves or cenotes, similar to those found in Yucatán, Mexico. During the tour, there is a possibility to observe exotic fauna such as endemic and migratory Cuban birds, as well as snakes, tree rats (jutías), iguanas, among other species. To get there, a 30-minute car ride is followed by a walk through the area, where visitors can learn about and enjoy the local flora and fauna. At the end of the tour, it is possible to take a refreshing swim in one of the blue water pools. The excursion lasts approximately 2.5 to 3 hours, depending on the group's pace. Visit hours: 8:00 AM to 4:00 PM. Recommendation: it is ideal to do the tour in the morning hours, although it can be done at any time of the day. Trail suitable for all kinds of visitors.",
+    "imagen": "/tours/t35.jpeg",
+    "imagenes": [
+      "/tours/t20.jpeg",
+      "/tours/t21.jpeg",
+      "/tours/t22.jpeg"
+    ]
+  },
+  {
+    "id": 8,
+    "nombre": "The Charm of Guareao",
+    "capacidad": "15 People",
+    "dificultad": "Medium",
+    "recorrido": "21 km",
+    "horario": "8:00 AM - 4:00 PM",
+    "meses": "Nov to May",
+    "caracteristicas": ["Flamingos", "Pink", "Herons", "Sevillas", "Cormorants", "Hawks"],
+    "descripcion": "Life experience in the heart of the Zapata Swamp Biosphere Reserve, the largest and best-preserved wetland in the Insular Caribbean. In the approximately 6-hour tour through swamp ecosystems dominated by marsh grasses, a great variety of endemic flora and fauna species can be appreciated, including orchids of different genera, mangroves, freshwater turtles, jutías (a very charismatic mammal species), manjuaríes (prehistoric Cuban fish), birds like woodpeckers, small owls, the national bird of Cuba: the tocororo, which add a special charm, hence the name which also alludes to a bird species typical of these partially flooded ecosystems. At the edges of the route, visitors will access small lagoons with channels where the impressive Cuban Crocodile, unique in the world, can also be seen. Other surprises await at the end of the route when visitors will participate in a unique experience. Due to its characteristics, visitors will be accompanied by two experienced local guides who will lead the group at all times.",
+    "imagen": "/tours/t36.jpeg",
+    "imagenes": [
+      "/tours/t23.jpeg",
+      "/tours/t24.jpeg",
+      "/tours/t25.jpeg"
+    ]
+  },
+  {
+    "id": 9,
+    "nombre": "The Pirate’s Hollow",
+    "capacidad": "15 People",
+    "dificultad": "Medium",
+    "recorrido": "21 km",
+    "horario": "8:00 AM - 4:00 PM",
+    "meses": "Nov to May",
+    "caracteristicas": ["Flamingos", "Pink", "Herons", "Sevillas", "Cormorants", "Hawks"],
+    "descripcion": "Excursion to one of the most iconic places in central Zapata Swamp: Los Hondones. The trail is located on a tectonic fault line that connects numerous beautiful flooded caves, with typical species such as fruit bats, freshwater and marine fish. The surrounding vegetation includes several plant species of great landscape value such as orchids, bromeliads, and shrubs that serve as substrate for them. The hike includes visits to crystal-clear cenotes, with depths ranging from 10 to 40 meters, where visitors can swim and snorkel, as well as observe endemic Cuban birds that habitually visit these water reservoirs. One of the caves holds a rural legend told by guides once visitors access the site. The tour concludes with lunch at a private home, providing a cultural immersion and allowing visitors to learn local customs and lifestyles. A longer version includes a visit to the “Blue Lagoon” and the coastal marine zone where colorful coral reefs and fish are observed.",
+    "imagen": "/tours/t37.jpeg",
+    "imagenes": [
+      "/tours/t26.jpeg",
+      "/tours/t27.jpeg",
+      "/tours/t28.jpeg"
+    ]
+  }
+]

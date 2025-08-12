@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from 'react';
-import birds from '../../../data/birds.json';
+import birds from '../../../data/birds.es.json';
 import CardBirds from './ui/CardBirds';
 
 export default function Gallery() {

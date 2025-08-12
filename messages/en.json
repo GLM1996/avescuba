@@ -17,5 +17,14 @@
     "title": "Discover the Birds of Cuba.",
     "subtitle": "Explore unique trails and learn about Cuban biodiversity.",
     "button": "Book Your Tour"
+  },
+  "Tours": {
+    "title": "Tour Services"
+  },
+  "CardTours": {
+    "title": "Tour Services",
+    "detailBtn": "Details",
+    "imgBtn": "Images",
+    "backBtn": "Back"
   }
 }

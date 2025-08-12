@@ -16,5 +16,14 @@
     "title": "Descubre las Aves de Cuba.",
     "subtitle": "Explora senderos únicos y conoce la biodiversidad cubana.",
     "button": "Reserva tu Recorrido"
+  },
+  "Tours": {
+    "title": "Servicios de Recorridos"
+  },
+  "CardTours": {
+    "title": "Servicios de Recorridos",
+    "detailBtn": "Detalles",
+    "imgBtn": "Imágenes",
+    "backBtn": "Volver"
   }
 }

@@ -2,12 +2,15 @@
 
 import { useEffect, useState } from 'react';
 import { FaWhatsapp } from 'react-icons/fa';
+import { useLocale } from 'next-intl';
 
-const numero = '5358524424'; // ← Tu número real
-const mensaje = 'Hola, estoy interesado en los tours de aves en Cuba';
+const numero = '5358353672'; // ← Tu número real
+const mensajeEs = 'Hola, estoy interesado en los tours de aves en Cuba';
+const mensajeEn = 'Hello, I am interested in birdwatching tours in Cuba.';
 
 const BtnContact = () => {
   const [visible, setVisible] = useState(false);
+  const locale = useLocale();
 
   useEffect(() => {
     const mostrarAlHacerScroll = () => {
@@ -19,7 +22,7 @@ const BtnContact = () => {
   }, []);
 
   if (!visible) return null;
-
+  let mensaje = locale === "ES" ? mensajeEs : mensajeEn
   const enlace = `https://wa.me/${numero}?text=${encodeURIComponent(mensaje)}`;
 
   return (

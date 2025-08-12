@@ -5,6 +5,7 @@ import Image from 'next/image';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Pagination, Zoom, Autoplay, Scrollbar } from 'swiper/modules';
 import { GiHummingbird } from "react-icons/gi";
+import { useTranslations } from 'next-intl';
 
 import 'swiper/css';
 import 'swiper/css/navigation';
@@ -30,8 +31,8 @@ interface CardToursProps {
 
 const CardTours: React.FC<CardToursProps> = ({ tour }) => {
   const [status, setStatus] = useState<'portada' | 'detalles' | 'imagenes'>('portada');
-
-
+  const t = useTranslations('CardTours');
+ 
   const getTranslate = () => {
     switch (status) {
       case 'portada':
@@ -86,13 +87,14 @@ const CardTours: React.FC<CardToursProps> = ({ tour }) => {
                 onClick={() => setStatus('detalles')}
                 className="w-full py-2 px-4 bg-green-950 border-green-400 border-3 text-white text-sm font-medium rounded-lg hover:bg-green-800"
               >
-                Detalles
+                {t('detailBtn')}
               </button>
               <button
                 onClick={() => setStatus('imagenes')}
                 className="w-full py-2 px-4 bg-green-950 border-green-400 border-3 text-white text-sm font-medium rounded-lg hover:bg-green-800"
               >
-                Imágenes
+                {t('imgBtn')}
+                
               </button>
             </div>
           </div>
@@ -109,7 +111,7 @@ const CardTours: React.FC<CardToursProps> = ({ tour }) => {
               onClick={() => setStatus('portada')}
               className="w-full py-2 px-4 bg-gray-800 text-white text-sm font-medium rounded-lg hover:bg-gray-600"
             >
-              Volver
+              {t('backBtn')}
             </button>
           </div>
         </div>
@@ -160,7 +162,7 @@ const CardTours: React.FC<CardToursProps> = ({ tour }) => {
               onClick={() => setStatus('portada')}
               className="w-full py-2 px-4 bg-gray-800 text-white text-sm font-medium rounded-lg hover:bg-gray-600"
             >
-              Volver
+              {t('backBtn')}
             </button>
           </div>
         </div>

@@ -8,8 +8,8 @@ export default function Contactame() {
     {
       icon: <FaWhatsapp className="w-6 h-6 text-green-500" />,
       label: "WhatsApp",
-      link: "https://wa.me/5358524424",
-      display: "+53 58524424",
+      link: "https://wa.me/5358353672",
+      display: "+53 58353672",
     },
     {
       icon: <FaEnvelope className="w-6 h-6 text-purple-600" />,
@@ -20,8 +20,8 @@ export default function Contactame() {
     {
       icon: <FaPhone className="w-6 h-6 text-blue-600" />,
       label: "Teléfono",
-      link: "tel:+5358524424",
-      display: "+53 58524424",
+      link: "tel:+5358353672",
+      display: "+53 58353672",
     },
   ];
 

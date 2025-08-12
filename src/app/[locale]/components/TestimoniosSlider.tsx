@@ -60,7 +60,7 @@ export default function TestimoniosSlider() {
     <section
       className="relative w-full bg-cover bg-center bg-no-repeat py-16 px-4 shadow-lg"
       style={{ backgroundImage: "url('/gallery/gallery1.webp')" }}
-      id='gallery'
+      id='testimonials'
     >
       {/* SVG curve at top (inverted) */}
       <svg

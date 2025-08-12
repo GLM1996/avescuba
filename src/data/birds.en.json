@@ -1,0 +1,99 @@
+[
+    {
+      "id": 1,
+      "nombre": "Cuban Trogon",
+      "cientifico": "Priotelus temnurus",
+      "region": ["West", "Center", "East"],
+      "epoca": ["All year"],
+      "tipo": "Endemic",
+      "rareza": "Common",
+      "imagen": "/birds/tocororo.webp",
+      "sonido": "/sounds/tocororo.mp3",
+      "descripcion": "A splendid medium-sized forest-dwelling bird; often seen in pairs. Its iridescent bluish-green back, plain gray chest, and bright red belly make it easily distinguishable from all other trogon species in its range. Usually remains still at mid-forest level, but becomes conspicuous when feeding (mainly on flowers and fruits). Often detected by its loud and varied calls. One common call is a cu-cu-cu-cu-cu-cu-cu-cu, often accelerating; another is a resonant, trembling cu-u-lou, repeated several times."
+    },
+    {
+      "id": 2,
+      "nombre": "Bee Hummingbird",
+      "cientifico": "Mellisuga helenae",
+      "region": ["West", "Center"],
+      "epoca": ["All year"],
+      "tipo": "Endemic",
+      "rareza": "Rare",
+      "imagen": "/birds/zunzuncito.webp",
+      "sonido": "/sounds/zunzuncito.mp3",
+      "descripcion": "This tiny nectar-feeder is the smallest bird in the world. It feeds on forest flowers, especially those that are more horizontally positioned. Males are often perched on high, exposed branches. Males are striking with iridescent red heads and turquoise upperparts. Females are also turquoise above but duller below. Easily identified by its small size and relatively short bill. In flight, its wings produce a sound similar to a bumblebee. Its most common vocalization is a sharp, extended mix of high-pitched chirps."
+    },
+    {
+      "id": 3,
+      "nombre": "Cuban Tody",
+      "cientifico": "Todus multicolor",
+      "region": ["West", "Center", "East"],
+      "epoca": ["All year"],
+      "tipo": "Endemic",
+      "rareza": "Common",
+      "imagen": "/birds/cartacuba.webp",
+      "sonido": "/sounds/cartacuba.mp3",
+      "descripcion": "A small, jewel-like forest bird, often found in pairs. Its relatively large head, long bill, and short tail create a unique profile. Also note the bright green upperparts and red throat and sides. No similar species within its range. Usually hunts from low to mid-level perches, sitting nearly motionless before darting to catch prey from branches and leaves. Vocalizations include a strong chuk, chuk, chuk, chuk, given at a rate of about 7 to 10 notes per second; series often follow in rapid succession."
+    },
+    {
+      "id": 4,
+      "nombre": "Zapata Wren",
+      "cientifico": "Torreornis inexpectata",
+      "region": ["West (Zapata)"],
+      "epoca": ["All year"],
+      "tipo": "Endemic",
+      "rareza": "Very Rare",
+      "imagen": "/birds/cabrerito.webp",
+      "sonido": "/sounds/cabrerito.mp3",
+      "descripcion": "A beautiful species with subtle coloration. Belly color ranges from bright yellow to grayish-yellow, and the head shows black-and-white moustachial stripes with a rusty crown. Frequently found in pairs low in vegetation or on the ground. No similar species in its range. Calls include a fast ti-ti-ti... chatter, a sharp thin tzi-tzi-tzi, and a quick series of 10 or more buzzing notes that descend in pitch and soften toward the end."
+    },
+    {
+      "id": 5,
+      "nombre": "Cuban Kite",
+      "cientifico": "Chondrohierax uncinatus wilsonii",
+      "region": ["West", "Center"],
+      "epoca": ["All year"],
+      "tipo": "Endemic",
+      "rareza": "Critically Endangered",
+      "imagen": "/birds/gavilan.webp",
+      "sonido": "/sounds/gavilan.mp3",
+      "descripcion": "Rare tropical raptor in southern Texas, but widespread in Central and South America. Found alone, in pairs, or small family groups in forests, often near water. Hunts within forest. Long tail and broad, rounded wings are distinctive in flight. Perched birds show hooked bill with yellow base and yellow feet. Males are gray with white belly bars. Females are brown above with rufous below and mostly gray head. Juveniles are paler below with thinner bars. Feeds mainly on snails."
+    },
+    {
+      "id": 6,
+      "nombre": "American Flamingo",
+      "cientifico": "Phoenicopterus ruber",
+      "region": ["Ciego de Ávila", "Camagüey", "Cienfuegos"],
+      "epoca": ["All year"],
+      "tipo": "Resident",
+      "rareza": "Locally Common",
+      "imagen": "/birds/flamenco.webp",
+      "sonido": "/sounds/flamenco.mp3",
+      "descripcion": "Very localized and unmistakable wading bird with a very long, curved neck and long legs. Adults are bright pink. One-year-olds are brownish with white and take two to three years to reach full adult plumage. Usually seen in flocks in shallow brackish lagoons. Fly in scattered lines like geese, and their loud calls are also goose-like. Note that some people refer to the Roseate Spoonbill as a 'flamingo'; however, aside from the color, it is not similar to the American Flamingo."
+    },
+    {
+      "id": 8,
+      "nombre": "Cuban Green Woodpecker",
+      "cientifico": "Xiphidiopicus percussus",
+      "region": ["All Cuba"],
+      "epoca": ["All year"],
+      "tipo": "Endemic",
+      "rareza": "Common",
+      "imagen": "/birds/carpintero.webp",
+      "sonido": "/sounds/carpintero.mp3",
+      "descripcion": "An attractive, relatively small forest woodpecker, including mangroves; typically found in pairs, often on dead or dying branches. This green-backed woodpecker has a red crown and white face with a darkish stripe extending from the eye backward. No similar species in its range. Calls include a harsh gruhh and a rapid did-it-it."
+    },
+    {
+      "id": 9,
+      "nombre": "Cuban Pygmy Owl",
+      "cientifico": "Glaucidium siju",
+      "region": ["All Cuba"],
+      "epoca": ["All year"],
+      "tipo": "Endemic",
+      "rareza": "Common",
+      "imagen": "/birds/siju.webp",
+      "sonido": "/sounds/siju.mp3",
+      "descripcion": "A very small and tame forest owl that is active both day and night. This cute owl has a large rounded head with yellow eyes and prominently arched white eyebrows. Some individuals are mostly gray, while others are reddish-brown. Often holds its tail up. Typically flies short distances with rounded wings. Its song is a low whistle whuh or huu given slowly. Other vocalizations include a high thin whistle tsii, tsii-tsii-tsii-tsii-tsii-tsii that becomes progressively louder, and a series of sharp screeches. No similar species in its range."
+    }
+  ]
+  

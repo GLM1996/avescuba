@@ -1,11 +1,17 @@
 "use client";
 
-import tours from '../../../data/tours.json';
+import toursEs from '../../../data/tours.es.json';
+import toursEn from '../../../data/tours.en.json';
 import CardTours from './ui/CardTours';
 import { motion } from 'framer-motion';
 import { CardTourAnimation } from './animations/CardTourAnimation';
+import { useLocale, useTranslations } from 'next-intl';
 
 export default function Tours() {
+  const t = useTranslations('Tours');
+  const locale = useLocale()
+  const tours = locale === 'es' ? toursEs : toursEn
+
 
   return (
     <section
@@ -29,7 +35,7 @@ export default function Tours() {
       </svg>
       <div className="max-w-7xl mx-auto mt-20 mb-3">
         <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-10 text-center">
-          Servicios de Tours
+        {t('title')}
         </h2>
 
         {/* Grid de tarjetas */}
