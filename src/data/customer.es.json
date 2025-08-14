@@ -1,0 +1,44 @@
+[
+    {
+        "nombre": "Ana Rodríguez",
+        "comentario":
+          "Una experiencia maravillosa explorando las aves de Cuba. El sitio es informativo y visualmente hermoso.",
+        "avatar": "/tours/t1.jpeg",
+        "calificacion": 5
+      },
+      {
+        "nombre": "Luis Pérez",
+        "comentario":
+          "Me encantó la sección del Zunzuncito, ¡es increíble ver cómo se conserva tanta biodiversidad!",
+        "avatar": "/tours/t2.jpeg",
+        "calificacion": 4
+      },
+      {
+        "nombre": "María Gómez",
+        "comentario":
+          "Ideal para principiantes en observación de aves. Las fotos, los sonidos y la información son top.",
+        "avatar": "/tours/t3.jpeg",
+        "calificacion": 5
+      },
+      {
+        "nombre": "Ana Rodríguez",
+        "comentario":
+          "Una experiencia maravillosa explorando las aves de Cuba. El sitio es informativo y visualmente hermoso.",
+        "avatar": "/tours/t1.jpeg",
+        "calificacion": 5
+      },
+      {
+        "nombre": "Luis Pérez",
+        "comentario":
+          "Me encantó la sección del Zunzuncito, ¡es increíble ver cómo se conserva tanta biodiversidad!",
+        "avatar": "/tours/t2.jpeg",
+        "calificacion": 4
+      },
+      {
+        "nombre": "María Gómez",
+        "comentario":
+          "Ideal para principiantes en observación de aves. Las fotos, los sonidos y la información son top.",
+        "avatar": "/tours/t3.jpeg",
+        "calificacion": 5
+      }
+]

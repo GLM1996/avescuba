@@ -1,10 +1,16 @@
 "use client";
 
 import { useState } from 'react';
-import birds from '../../../data/birds.es.json';
+import birdsEs from '../../../data/birds.es.json';
+import birdsEn from '../../../data/birds.en.json';
 import CardBirds from './ui/CardBirds';
+import { useLocale, useTranslations } from 'next-intl';
 
 export default function Gallery() {
+  const t = useTranslations('Gallery');
+  const locale = useLocale()
+  const birds = locale === 'es' ? birdsEs : birdsEn
+
   const [filters, setFilters] = useState({
     region: '',
     epoca: '',
@@ -40,7 +46,7 @@ export default function Gallery() {
       </svg>
       <div className="max-w-7xl mx-auto mt-20 mb-4">
         <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-10 text-center">
-          Galería de Aves de Cuba
+          {t('title')}
         </h2>
 
         {/* Filtros */}
@@ -49,7 +55,7 @@ export default function Gallery() {
             onChange={(e) => setFilters({ ...filters, region: e.target.value })}
             className="px-4 py-2 rounded-lg bg-white text-gray-800 shadow-sm focus:outline-none focus:ring-2 focus:ring-yellow-400"
           >
-            <option value="">Todas las regiones</option>
+            <option value="">{t('filter1')}</option>
             <option value="Occidente">Occidente</option>
             <option value="Centro">Centro</option>
             <option value="Oriente">Oriente</option>
@@ -59,7 +65,7 @@ export default function Gallery() {
             onChange={(e) => setFilters({ ...filters, epoca: e.target.value })}
             className="px-4 py-2 rounded-lg bg-white text-gray-800 shadow-sm focus:outline-none focus:ring-2 focus:ring-yellow-400"
           >
-            <option value="">Todas las épocas</option>
+            <option value="">{t('filter2')}</option>
             <option value="Invierno">Invierno</option>
             <option value="Verano">Verano</option>
           </select>
@@ -68,7 +74,7 @@ export default function Gallery() {
             onChange={(e) => setFilters({ ...filters, tipo: e.target.value })}
             className="px-4 py-2 rounded-lg bg-white text-gray-800 shadow-sm focus:outline-none focus:ring-2 focus:ring-yellow-400"
           >
-            <option value="">Todos los tipos</option>
+            <option value="">{t('filter3')}</option>
             <option value="Endémica">Endémica</option>
             <option value="Migratoria">Migratoria</option>
           </select>
@@ -84,7 +90,7 @@ export default function Gallery() {
         {/* Sin resultados */}
         {filteredBirds.length === 0 && (
           <p className="text-center text-gray-600 mt-10 text-lg">
-            No se encontraron aves con esos filtros.
+            {t('search')}
           </p>
         )}
       </div>

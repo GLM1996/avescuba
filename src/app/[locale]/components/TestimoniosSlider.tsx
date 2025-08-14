@@ -4,58 +4,21 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination, Autoplay } from "swiper/modules";
 import { FaStar } from "react-icons/fa";
+import { useLocale, useTranslations } from 'next-intl';
+import customersEs from '../../../data/customer.es.json';
+import customersEn from '../../../data/customer.en.json';
 
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/zoom';
 
-const testimonios = [
-  {
-    nombre: "Ana Rodríguez",
-    comentario:
-      "Una experiencia maravillosa explorando las aves de Cuba. El sitio es informativo y visualmente hermoso.",
-    avatar: "/tours/t1.jpeg",
-    calificacion: 5,
-  },
-  {
-    nombre: "Luis Pérez",
-    comentario:
-      "Me encantó la sección del Zunzuncito, ¡es increíble ver cómo se conserva tanta biodiversidad!",
-    avatar: "/tours/t2.jpeg",
-    calificacion: 4,
-  },
-  {
-    nombre: "María Gómez",
-    comentario:
-      "Ideal para principiantes en observación de aves. Las fotos, los sonidos y la información son top.",
-    avatar: "/tours/t3.jpeg",
-    calificacion: 5,
-  },
-  {
-    nombre: "Ana Rodríguez",
-    comentario:
-      "Una experiencia maravillosa explorando las aves de Cuba. El sitio es informativo y visualmente hermoso.",
-    avatar: "/tours/t1.jpeg",
-    calificacion: 5,
-  },
-  {
-    nombre: "Luis Pérez",
-    comentario:
-      "Me encantó la sección del Zunzuncito, ¡es increíble ver cómo se conserva tanta biodiversidad!",
-    avatar: "/tours/t2.jpeg",
-    calificacion: 4,
-  },
-  {
-    nombre: "María Gómez",
-    comentario:
-      "Ideal para principiantes en observación de aves. Las fotos, los sonidos y la información son top.",
-    avatar: "/tours/t3.jpeg",
-    calificacion: 5,
-  },
-];
+
 
 export default function TestimoniosSlider() {
+  const t = useTranslations('TestimoniosSlider');
+  const locale = useLocale()
+  const testimonios = locale === 'es' ? customersEs : customersEn
   return (
     <section
       className="relative w-full bg-cover bg-center bg-no-repeat py-16 px-4 shadow-lg"
@@ -78,7 +41,7 @@ export default function TestimoniosSlider() {
       </svg>
 
       <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-10 text-center mt-4">
-        Testimonios de Clientes
+        {t('title')}
       </h2>
       <Swiper
         modules={[Navigation, Pagination, Autoplay]}

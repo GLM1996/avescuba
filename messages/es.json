@@ -20,10 +20,41 @@
   "Tours": {
     "title": "Servicios de Recorridos"
   },
+  "Gallery": {
+    "title": "Galería de Aves de Cuba",
+    "search": "No se encontraron aves con esos filtros.",
+    "filter1": "Todas las regiones",
+    "filter2": "Todas las épocas",
+    "filter3": "Todos los tipos"
+  },
+  "CardBirds":{
+    "detailBtn": "Detalles",
+    "backBtn": "Volver"
+  },
+  "TestimoniosSlider":{
+    "title": "Testimonios de Clientes"
+  },
+  "MapaTours":{
+    "title": "Ubicaciones de Recorridos"
+  },
+  "SobreNosotros":{
+    "title": "Sobre Nosotros",
+    "text1": "Somos un equipo apasionado por la naturaleza y la avifauna cubana. Nuestro objetivo es ofrecer tours educativos y responsables para que descubras la increíble diversidad de aves que habitan nuestra isla.",
+    "text2": "Con años de experiencia y guías expertos, garantizamos una experiencia inolvidable en cada recorrido, cuidando el medio ambiente y promoviendo su conservación."
+  },
+  "Transporte":{
+    "title": "Transporte"
+  },
+  "Contactame":{
+    "title": "Contáctame"
+  },
   "CardTours": {
     "title": "Servicios de Recorridos",
     "detailBtn": "Detalles",
     "imgBtn": "Imágenes",
     "backBtn": "Volver"
+  },
+  "Footer": {
+    "copyright": "CubaAves. Todos los derechos reservados."
   }
 }

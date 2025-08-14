@@ -1,4 +1,7 @@
+import {  useTranslations } from 'next-intl';
+
 export default function SobreNosotros() {
+  const t = useTranslations('SobreNosotros');
   return (
     <section
       className="relative w-full bg-cover bg-center bg-no-repeat py-24 px-4 shadow-xl"
@@ -23,16 +26,13 @@ export default function SobreNosotros() {
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center gap-10 bg-white/90 backdrop-blur-sm rounded-2xl p-6 md:p-10 shadow-lg border border-white/30">
         <div className="md:w-1/2 text-gray-800">
           <h2 className="text-4xl font-extrabold mb-6 leading-tight tracking-tight">
-            Sobre Nosotros
+            {t('title')}
           </h2>
           <p className="mb-4 text-base md:text-lg leading-relaxed">
-            Somos un equipo apasionado por la naturaleza y la avifauna cubana. Nuestro objetivo es
-            ofrecer tours educativos y responsables para que descubras la increíble diversidad de aves
-            que habitan nuestra isla.
+            {t('text1')}
           </p>
           <p className="text-base md:text-lg leading-relaxed">
-            Con años de experiencia y guías expertos, garantizamos una experiencia inolvidable en cada
-            recorrido, cuidando el medio ambiente y promoviendo su conservación.
+          {t('text2')}
           </p>
         </div>
         <div className="md:w-1/2">

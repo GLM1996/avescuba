@@ -2,8 +2,10 @@
 
 import { FaWhatsapp, FaEnvelope, FaPhone, FaLinkedin } from "react-icons/fa";
 import { motion } from "framer-motion";
+import {  useTranslations } from 'next-intl';
 
 export default function Contactame() {
+  const t = useTranslations('Contactame');
   const contacts = [
     {
       icon: <FaWhatsapp className="w-6 h-6 text-green-500" />,
@@ -59,7 +61,7 @@ export default function Contactame() {
 
       <div className="py-6 mx-4 sm:py-12 px-6 sm:px-20 text-gray-800 font-bold bg-white/90 backdrop-blur-sm my-6 max-w-6xl md:mx-auto rounded-2xl">
 
-        <h2 className="text-3xl font-bold text-center my-12">Contáctame</h2>
+        <h2 className="text-3xl font-bold text-center my-12">{t('title')}</h2>
         <div className="max-w-6xl  flex flex-col md:flex-row mx-auto items-center justify-around">
 
           {/* Imagen */}

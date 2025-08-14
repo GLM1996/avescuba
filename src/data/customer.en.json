@@ -1,0 +1,38 @@
+[
+  {
+    "nombre": "Ana Rodríguez",
+    "comentario": "A wonderful experience exploring the birds of Cuba. The site is informative and visually beautiful.",
+    "avatar": "/tours/t1.jpeg",
+    "calificacion": 5
+  },
+  {
+    "nombre": "Luis Pérez",
+    "comentario": "I loved the Zunzuncito section; it’s amazing to see how so much biodiversity is preserved!",
+    "avatar": "/tours/t2.jpeg",
+    "calificacion": 4
+  },
+  {
+    "nombre": "María Gómez",
+    "comentario": "Perfect for beginners in birdwatching. The photos, sounds, and information are top-notch.",
+    "avatar": "/tours/t3.jpeg",
+    "calificacion": 5
+  },
+  {
+    "nombre": "Ana Rodríguez",
+    "comentario": "A wonderful experience exploring the birds of Cuba. The site is informative and visually beautiful.",
+    "avatar": "/tours/t1.jpeg",
+    "calificacion": 5
+  },
+  {
+    "nombre": "Luis Pérez",
+    "comentario": "I loved the Zunzuncito section; it’s amazing to see how so much biodiversity is preserved!",
+    "avatar": "/tours/t2.jpeg",
+    "calificacion": 4
+  },
+  {
+    "nombre": "María Gómez",
+    "comentario": "Perfect for beginners in birdwatching. The photos, sounds, and information are top-notch.",
+    "avatar": "/tours/t3.jpeg",
+    "calificacion": 5
+  }
+]

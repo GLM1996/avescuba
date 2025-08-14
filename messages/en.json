@@ -21,10 +21,41 @@
   "Tours": {
     "title": "Tour Services"
   },
+  "Gallery": {
+    "title": "Gallery of Birds of Cuba",
+    "search": "No birds were found with those filters.",
+    "filter1": "All Regions",
+    "filter2": "All Seasons",
+    "filter3": "All Types"
+  },
+  "CardBirds":{
+    "detailBtn": "Details",
+    "backBtn": "Back"
+  },
+  "TestimoniosSlider":{
+    "title": "Customer Testimonials"
+  },
+  "MapaTours":{
+    "title": "Tour Locations"
+  },
+  "SobreNosotros":{
+    "title": "About Us",
+    "text1": "We are a team passionate about nature and Cuban birdlife. Our goal is to offer educational and responsible tours so that you can discover the incredible diversity of birds that inhabit our island.",
+    "text2": "With years of experience and expert guides, we guarantee an unforgettable experience on every tour, while caring for the environment and promoting its conservation."
+  },
+  "Transporte":{
+    "title": "Transport"
+  },
+  "Contactame":{
+    "title": "Contact me"
+  },
   "CardTours": {
     "title": "Tour Services",
     "detailBtn": "Details",
     "imgBtn": "Images",
     "backBtn": "Back"
+  },
+  "Footer": {
+    "copyright": "CubaAves. All rights reserved."
   }
 }

@@ -2,6 +2,7 @@
 
 import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
 import 'leaflet/dist/leaflet.css';
+import { useLocale, useTranslations } from 'next-intl';
 
 import L from "leaflet";
 
@@ -42,6 +43,7 @@ const tours: {
 
 
 export default function MapaTours() {
+  const t = useTranslations('MapaTours');
   return (
     <section
       className="relative w-full bg-cover bg-center bg-no-repeat py-16 px-4 shadow-lg"
@@ -63,7 +65,7 @@ export default function MapaTours() {
         />
       </svg>
       <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-10 text-center mt-4">
-      Ubicaciones de Tours
+      {t('title')}
       </h2>
       <MapContainer
         center={[22.5, -81.0]} // Centro aproximado de Cuba

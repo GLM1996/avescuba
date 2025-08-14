@@ -9,6 +9,7 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/zoom';
+import {  useTranslations } from 'next-intl';
 
 const transporte = [
     {
@@ -22,6 +23,7 @@ const transporte = [
 ];
 
 export default function Transporte() {
+    const t = useTranslations('Transporte');
     return (
         <section
             className="relative w-full bg-cover bg-center bg-no-repeat py-16 px-4 shadow-lg"
@@ -44,7 +46,7 @@ export default function Transporte() {
             </svg>
 
             <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-10 text-center mt-4">
-                Transporte
+                {t('title')}
             </h2>
 
             <Swiper

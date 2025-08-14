@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import Image from 'next/image';
+import { useLocale, useTranslations } from 'next-intl';
 
 type Bird = {
   id: number;
@@ -20,6 +21,7 @@ interface CardBirdsProps {
 
 const CardBirds: React.FC<CardBirdsProps> = ({ bird }) => {
   const [showDetails, setShowDetails] = useState(false);
+  const t = useTranslations('CardBirds');
 
   return (
     <div
@@ -71,7 +73,7 @@ const CardBirds: React.FC<CardBirdsProps> = ({ bird }) => {
                 onClick={() => setShowDetails(true)}
                 className="w-full py-2 px-4 bg-yellow-500 text-white text-sm font-medium rounded-lg hover:bg-yellow-600 transition-colors"
               >
-                Ver detalles
+                {t('detailBtn')}
               </button>
             </div>
           </div>
@@ -91,7 +93,7 @@ const CardBirds: React.FC<CardBirdsProps> = ({ bird }) => {
             onClick={() => setShowDetails(false)}
             className="mt-5 w-full py-2 px-4 bg-gray-800 text-white text-sm font-medium rounded-lg hover:bg-gray-700 transition-colors"
           >
-            Ocultar detalles
+            {t('backBtn')}
           </button>
         </div>
       </div>
