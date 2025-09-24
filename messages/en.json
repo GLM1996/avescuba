@@ -19,7 +19,8 @@
     "button": "Book Your Tour"
   },
   "Tours": {
-    "title": "Tour Services"
+    "title": "Tour Services",
+    "description": "Each tour offers a full all-inclusive package, covering accommodation and transportation. The trips range from a minimum of 7 days to a maximum of 11 days."
   },
   "Gallery": {
     "title": "Gallery of Birds of Cuba",

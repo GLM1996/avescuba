@@ -13,12 +13,12 @@ export default function Contactame() {
       link: "https://wa.me/5358353672",
       display: "+53 58353672",
     },
-    {
+    /*{
       icon: <FaEnvelope className="w-6 h-6 text-purple-600" />,
       label: "Email",
       link: "mailto:estrellaglm96@gmail.com",
       display: "estrellaglm96@gmail.com",
-    },
+    },*/
     {
       icon: <FaPhone className="w-6 h-6 text-blue-600" />,
       label: "Teléfono",

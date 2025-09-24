@@ -38,6 +38,10 @@ export default function Tours() {
         {t('title')}
         </h2>
 
+        <h4 className='text-xl md:text-2xl font-bold text-gray-700 mb-5 text-center bg-white rounded'>
+          {t('description')}
+        </h4>
+
         {/* Grid de tarjetas */}
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
           {tours.map((tour, index) => (

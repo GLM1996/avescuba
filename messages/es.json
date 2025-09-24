@@ -18,7 +18,8 @@
     "button": "Reserva tu Recorrido"
   },
   "Tours": {
-    "title": "Servicios de Recorridos"
+    "title": "Servicios de Recorridos",
+    "description": "En cada tour se garantiza un plan todo incluido, que abarca hospedaje y transporte. La duración de los viajes varía entre un mínimo de 7 días y un máximo de 11 días."
   },
   "Gallery": {
     "title": "Galería de Aves de Cuba",
